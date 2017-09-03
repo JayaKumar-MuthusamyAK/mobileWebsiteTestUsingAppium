@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Execute test suite name is :flightListingPagefilterValidation]]>
+    </line>
+    <line>
+      <![CDATA[startAppium----]]>
+    </line>
+    <line>
+      <![CDATA[navigateURL--URL--]]>
+    </line>
+    <line>
+      <![CDATA[http://makemytrip.com]]>
+    </line>
+    <line>
+      <![CDATA[verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
+    </line>
+    <line>
+      <![CDATA[MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.flightlink--]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.flight.fromcity--]]>
+    </line>
+    <line>
+      <![CDATA[chooseCityinList--homepage.flight.fromcitylist|homepage.flight.fromSearchbox--New Delhi]]>
+    </line>
+    <line>
+      <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.flight.tocity--]]>
+    </line>
+    <line>
+      <![CDATA[chooseCityinList--homepage.flight.fromcitylist|homepage.flight.fromSearchbox--NYC]]>
+    </line>
+    <line>
+      <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.flight.checkIndatePicker--]]>
+    </line>
+    <line>
+      <![CDATA[datePicker----28/9/2017]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.datepicker.returnCancelIcon--]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.datepicker.okBtn--]]>
+    </line>
+    <line>
+      <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.flight.adult--]]>
+    </line>
+    <line>
+      <![CDATA[numberOfPassengerSelect----2|1|0]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.adultpage.okbtn--]]>
+    </line>
+    <line>
+      <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.flight.class--]]>
+    </line>
+    <line>
+      <![CDATA[selectClass--homepage.class.list--PREMIUM ECONOMY]]>
+    </line>
+    <line>
+      <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
+    </line>
+    <line>
+      <![CDATA[checkAlertnotificationmsg--notification.message.later--]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.flight.searchBtn--]]>
+    </line>
+    <line>
+      <![CDATA[checkAlertnotificationmsg--notification.message.later--]]>
+    </line>
+    <line>
+      <![CDATA[verifyTotal--flightlistingpage.flightnames|flightlistingpage.flightinsidecount|flightlistingpage.totalflight--]]>
+    </line>
+    <line>
+      <![CDATA[stopAppium----]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="140898" started-at="2017-09-03T05:09:48Z" finished-at="2017-09-03T05:12:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="140898" started-at="2017-09-03T05:09:48Z" finished-at="2017-09-03T05:12:09Z">
+      <class name="com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase">
+        <test-method status="PASS" signature="flightListingPagefilterValidation()[pri:0, instance:com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase@2d928643]" name="flightListingPagefilterValidation" duration-ms="140727" started-at="2017-09-03T10:39:48Z" finished-at="2017-09-03T10:42:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Execute test suite name is :flightListingPagefilterValidation]]>
+            </line>
+            <line>
+              <![CDATA[startAppium----]]>
+            </line>
+            <line>
+              <![CDATA[navigateURL--URL--]]>
+            </line>
+            <line>
+              <![CDATA[http://makemytrip.com]]>
+            </line>
+            <line>
+              <![CDATA[verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
+            </line>
+            <line>
+              <![CDATA[MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.flightlink--]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.flight.fromcity--]]>
+            </line>
+            <line>
+              <![CDATA[chooseCityinList--homepage.flight.fromcitylist|homepage.flight.fromSearchbox--New Delhi]]>
+            </line>
+            <line>
+              <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.flight.tocity--]]>
+            </line>
+            <line>
+              <![CDATA[chooseCityinList--homepage.flight.fromcitylist|homepage.flight.fromSearchbox--NYC]]>
+            </line>
+            <line>
+              <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.flight.checkIndatePicker--]]>
+            </line>
+            <line>
+              <![CDATA[datePicker----28/9/2017]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.datepicker.returnCancelIcon--]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.datepicker.okBtn--]]>
+            </line>
+            <line>
+              <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.flight.adult--]]>
+            </line>
+            <line>
+              <![CDATA[numberOfPassengerSelect----2|1|0]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.adultpage.okbtn--]]>
+            </line>
+            <line>
+              <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.flight.class--]]>
+            </line>
+            <line>
+              <![CDATA[selectClass--homepage.class.list--PREMIUM ECONOMY]]>
+            </line>
+            <line>
+              <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
+            </line>
+            <line>
+              <![CDATA[checkAlertnotificationmsg--notification.message.later--]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.flight.searchBtn--]]>
+            </line>
+            <line>
+              <![CDATA[checkAlertnotificationmsg--notification.message.later--]]>
+            </line>
+            <line>
+              <![CDATA[verifyTotal--flightlistingpage.flightnames|flightlistingpage.flightinsidecount|flightlistingpage.totalflight--]]>
+            </line>
+            <line>
+              <![CDATA[stopAppium----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flightListingPagefilterValidation -->
+        <test-method status="PASS" signature="afterExecution(org.testng.ITestResult)[pri:0, instance:com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase@2d928643]" name="afterExecution" is-config="true" duration-ms="142" started-at="2017-09-03T10:42:09Z" finished-at="2017-09-03T10:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flightListingPagefilterValidation status=SUCCESS method=TC_005FlightListingPagefilterValidationTestCase.flightListingPagefilterValidation()[pri:0, instance:com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase@2d928643] output=Execute test suite name is :flightListingPagefilterValidation]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterExecution -->
+      </class> <!-- com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

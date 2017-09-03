@@ -1,0 +1,1592 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 13 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\admin\housingman\workspace\appiumFramework\RegressionTestNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 13 failed,  5 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_001LoginTestCases" hash-for-method="LoginPageTestCases({Status=, Password=Test1, Runmode=Y, Expected_Result=Please enter a valid Email Id, Email=Test1})">LoginPageTestCases({Status=, Password=Test1, Runmode=Y, Expected_Result=Please enter a valid Email Id, Email=Test1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_001LoginTestCases" hash-for-method="LoginPageTestCases({Status=, Password=jakay07@, Runmode=Y, Expected_Result=jakay507@gmail.com, Email=jakay507@gmail.com...)">LoginPageTestCases({Status=, Password=jakay07@, Runmode=Y, Expected_Result=jakay507@gmail.com, Email=jakay507@gmail.com...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_002SignUpPageTestCases" hash-for-method="SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=, Password=123456, LastName=YAN, Runmode=Y, Expected_Result=P...)">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=, Password=123456, LastName=YAN, Runmode=Y, Expected_Result=P...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_002SignUpPageTestCases" hash-for-method="SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=ILLA, Password=, LastName=N, Runmode=Y, Expected_Result=Pleas...)">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=ILLA, Password=, LastName=N, Runmode=Y, Expected_Result=Pleas...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_002SignUpPageTestCases" hash-for-method="SignUpPageTestCase({Status=, Mobile=, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=Please En...)">SignUpPageTestCase({Status=, Mobile=, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=Please En...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_002SignUpPageTestCases" hash-for-method="SignUpPageTestCase({Status=, Mobile=788989898, FirstName=ILLA, Password=1234, LastName=N, Runmode=Y, Expected_Result=Pa...)">SignUpPageTestCase({Status=, Mobile=788989898, FirstName=ILLA, Password=1234, LastName=N, Runmode=Y, Expected_Result=Pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_002SignUpPageTestCases" hash-for-method="SignUpPageTestCase({Status=, Mobile=78898989, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=P...)">SignUpPageTestCase({Status=, Mobile=78898989, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=P...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_002SignUpPageTestCases" hash-for-method="SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result...)">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_002SignUpPageTestCases" hash-for-method="SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=YAN, Password=123456, LastName=, Runmode=Y, Expected_Result=P...)">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=YAN, Password=123456, LastName=, Runmode=Y, Expected_Result=P...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_002SignUpPageTestCases" hash-for-method="SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=aaaaa, Password=123456, LastName=jjjjjjjj, Runmode=Y, Expecte...)">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=aaaaa, Password=123456, LastName=jjjjjjjj, Runmode=Y, Expecte...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase" hash-for-method="flightListingPagefilterValidation">flightListingPagefilterValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_003FlightReservation" hash-for-method="flightReseverationpage">flightReseverationpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_004NewUserSignupTestCase" hash-for-method="newUserSignupTestCase">newUserSignupTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_001LoginTestCases" hash-for-method="LoginPageTestCases({Status=, Password=, Runmode=N, Expected_Result=Please enter password, Email=Test1})">LoginPageTestCases({Status=, Password=, Runmode=N, Expected_Result=Please enter password, Email=Test1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_001LoginTestCases" hash-for-method="LoginPageTestCases({Status=, Password=, Runmode=N, Expected_Result=Please enter Email Id, Email=})">LoginPageTestCases({Status=, Password=, Runmode=N, Expected_Result=Please enter Email Id, Email=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_001LoginTestCases" hash-for-method="LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Invalid Email Id or Password, Email=Test1@yopam...)">LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Invalid Email Id or Password, Email=Test1@yopam...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_001LoginTestCases" hash-for-method="LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Please enter Email Id, Email=})">LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Please enter Email Id, Email=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.makemytrip.testcases.TC_001LoginTestCases" hash-for-method="LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Please enter a valid Email Id, Email=Test1})">LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Please enter a valid Email Id, Email=Test1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightListingPagefilterValidation">
+                  </a> <!-- flightListingPagefilterValidation -->
+                  <span class="method-name">flightListingPagefilterValidation</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;block RobotoLight filter_text_small&apos;]/span[@mt-id=&apos;totalResult&apos;]&quot;}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=480x800, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=ANDROID, deviceUDID=emulator-5554, desired={browserName=chrome, platformName=Android, deviceName=Nexus7, platform=ANDROID}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Android SDK built for x86_64, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 0eb2b152-ff13-4c92-be56-c6315d698d0a
+*** Element info: {Using=xpath, value=//span[@class=&apos;block RobotoLight filter_text_small&apos;]/span[@mt-id=&apos;totalResult&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.makemytrip.testbase.TestBase.getLocator(TestBase.java:140)
+	at com.makemytrip.testbase.TestBase.getWebElement(TestBase.java:172)
+	at com.makemytrip.testscripts.ApplicationDependKeywords.verifyTotal(ApplicationDependKeywords.java:117)
+	at com.makemytrip.testscripts.Keywords.executeKeywords(Keywords.java:111)
+	at com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase.flightListingPagefilterValidation(TC_005FlightListingPagefilterValidationTestCase.java:20)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.makemytrip.testcases.TC_003FlightReservation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightReseverationpage">
+                  </a> <!-- flightReseverationpage -->
+                  <span class="method-name">flightReseverationpage</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:84)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:36)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)
+	at com.makemytrip.testbase.TestBase.selectBrowser(TestBase.java:96)
+	at com.makemytrip.testbase.TestBase.startAppiumServer(TestBase.java:69)
+	at com.makemytrip.testscripts.GeneralKeywords.startAppium(GeneralKeywords.java:24)
+	at com.makemytrip.testscripts.Keywords.executeKeywords(Keywords.java:45)
+	at com.makemytrip.testcases.TC_003FlightReservation.flightReseverationpage(TC_003FlightReservation.java:17)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 59 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.makemytrip.testcases.TC_004NewUserSignupTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newUserSignupTestCase">
+                  </a> <!-- newUserSignupTestCase -->
+                  <span class="method-name">newUserSignupTestCase</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:84)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:36)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)
+	at com.makemytrip.testbase.TestBase.selectBrowser(TestBase.java:96)
+	at com.makemytrip.testbase.TestBase.startAppiumServer(TestBase.java:69)
+	at com.makemytrip.testscripts.GeneralKeywords.startAppium(GeneralKeywords.java:24)
+	at com.makemytrip.testscripts.Keywords.executeKeywords(Keywords.java:45)
+	at com.makemytrip.testcases.TC_004NewUserSignupTestCase.newUserSignupTestCase(TC_004NewUserSignupTestCase.java:18)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 59 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.makemytrip.testcases.TC_001LoginTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageTestCases({Status=, Password=Test1, Runmode=Y, Expected_Result=Please enter a valid Email Id, Email=Test1})">
+                  </a> <!-- LoginPageTestCases({Status=, Password=Test1, Runmode=Y, Expected_Result=Please enter a valid Email Id, Email=Test1}) -->
+                  <span class="method-name">LoginPageTestCases</span>
+                  <span class="parameters">({Status=, Password=Test1, Runmode=Y, Expected_Result=Please enter a valid Email Id, Email=Test1})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;username&quot;}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.49 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=480x800, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=ANDROID, deviceUDID=emulator-5554, desired={browserName=chrome, platformName=Android, deviceName=Nexus7, platform=ANDROID}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Android SDK built for x86_64, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 9ff1e6e8-3089-4efc-9ee0-c4f7ab6df2de
+*** Element info: {Using=id, value=username}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.makemytrip.testbase.TestBase.getLocator(TestBase.java:126)
+	at com.makemytrip.testbase.TestBase.getWebElement(TestBase.java:172)
+	at com.makemytrip.testscripts.GeneralKeywords.input(GeneralKeywords.java:28)
+	at com.makemytrip.testscripts.Keywords.executeKeywords(Keywords.java:57)
+	at com.makemytrip.testcases.TC_001LoginTestCases.LoginPageTestCases(TC_001LoginTestCases.java:36)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageTestCases({Status=, Password=jakay07@, Runmode=Y, Expected_Result=jakay507@gmail.com, Email=jakay507@gmail.com...)">
+                  </a> <!-- LoginPageTestCases({Status=, Password=jakay07@, Runmode=Y, Expected_Result=jakay507@gmail.com, Email=jakay507@gmail.com...) -->
+                  <span class="method-name">LoginPageTestCases</span>
+                  <span class="parameters">({Status=, Password=jakay07@, Runmode=Y, Expected_Result=jakay507@gmail.com, Email=jakay507@gmail.com})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:84)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:36)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)
+	at com.makemytrip.testbase.TestBase.selectBrowser(TestBase.java:96)
+	at com.makemytrip.testbase.TestBase.startAppiumServer(TestBase.java:69)
+	at com.makemytrip.testscripts.GeneralKeywords.startAppium(GeneralKeywords.java:24)
+	at com.makemytrip.testscripts.Keywords.executeKeywords(Keywords.java:45)
+	at com.makemytrip.testcases.TC_001LoginTestCases.LoginPageTestCases(TC_001LoginTestCases.java:36)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 59 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.makemytrip.testcases.TC_002SignUpPageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=, Password=123456, LastName=YAN, Runmode=Y, Expected_Result=P...)">
+                  </a> <!-- SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=, Password=123456, LastName=YAN, Runmode=Y, Expected_Result=P...) -->
+                  <span class="method-name">SignUpPageTestCase</span>
+                  <span class="parameters">({Status=, Mobile=9898989898, FirstName=, Password=123456, LastName=YAN, Runmode=Y, Expected_Result=Please Enter First Name., Email=ayan@yopmail.com})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:84)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:36)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)
+	at com.makemytrip.testbase.TestBase.selectBrowser(TestBase.java:96)
+	at com.makemytrip.testbase.TestBase.startAppiumServer(TestBase.java:69)
+	at com.makemytrip.testscripts.GeneralKeywords.startAppium(GeneralKeywords.java:24)
+	at com.makemytrip.testscripts.Keywords.executeKeywords(Keywords.java:45)
+	at com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(TC_002SignUpPageTestCases.java:28)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 59 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=ILLA, Password=, LastName=N, Runmode=Y, Expected_Result=Pleas...)">
+                  </a> <!-- SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=ILLA, Password=, LastName=N, Runmode=Y, Expected_Result=Pleas...) -->
+                  <span class="method-name">SignUpPageTestCase</span>
+                  <span class="parameters">({Status=, Mobile=9898989898, FirstName=ILLA, Password=, LastName=N, Runmode=Y, Expected_Result=Please Enter password., Email=ilan@yopmail.com})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:84)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:36)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)
+	at com.makemytrip.testbase.TestBase.selectBrowser(TestBase.java:96)
+	at com.makemytrip.testbase.TestBase.startAppiumServer(TestBase.java:69)
+	at com.makemytrip.testscripts.GeneralKeywords.startAppium(GeneralKeywords.java:24)
+	at com.makemytrip.testscripts.Keywords.executeKeywords(Keywords.java:45)
+	at com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(TC_002SignUpPageTestCases.java:28)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 59 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpPageTestCase({Status=, Mobile=, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=Please En...)">
+                  </a> <!-- SignUpPageTestCase({Status=, Mobile=, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=Please En...) -->
+                  <span class="method-name">SignUpPageTestCase</span>
+                  <span class="parameters">({Status=, Mobile=, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=Please Enter Mobile Number., Email=ilan@yopmail.com})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:84)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:36)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)
+	at com.makemytrip.testbase.TestBase.selectBrowser(TestBase.java:96)
+	at com.makemytrip.testbase.TestBase.startAppiumServer(TestBase.java:69)
+	at com.makemytrip.testscripts.GeneralKeywords.startAppium(GeneralKeywords.java:24)
+	at com.makemytrip.testscripts.Keywords.executeKeywords(Keywords.java:45)
+	at com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(TC_002SignUpPageTestCases.java:28)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 59 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpPageTestCase({Status=, Mobile=788989898, FirstName=ILLA, Password=1234, LastName=N, Runmode=Y, Expected_Result=Pa...)">
+                  </a> <!-- SignUpPageTestCase({Status=, Mobile=788989898, FirstName=ILLA, Password=1234, LastName=N, Runmode=Y, Expected_Result=Pa...) -->
+                  <span class="method-name">SignUpPageTestCase</span>
+                  <span class="parameters">({Status=, Mobile=788989898, FirstName=ILLA, Password=1234, LastName=N, Runmode=Y, Expected_Result=Password cannot be less than 6 characters., Email=ilan@yopmail.com})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:84)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:36)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)
+	at com.makemytrip.testbase.TestBase.selectBrowser(TestBase.java:96)
+	at com.makemytrip.testbase.TestBase.startAppiumServer(TestBase.java:69)
+	at com.makemytrip.testscripts.GeneralKeywords.startAppium(GeneralKeywords.java:24)
+	at com.makemytrip.testscripts.Keywords.executeKeywords(Keywords.java:45)
+	at com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(TC_002SignUpPageTestCases.java:28)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 59 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpPageTestCase({Status=, Mobile=78898989, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=P...)">
+                  </a> <!-- SignUpPageTestCase({Status=, Mobile=78898989, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=P...) -->
+                  <span class="method-name">SignUpPageTestCase</span>
+                  <span class="parameters">({Status=, Mobile=78898989, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=Please Enter valid Mobile Number., Email=ilan@yopmail.com})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:84)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:36)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)
+	at com.makemytrip.testbase.TestBase.selectBrowser(TestBase.java:96)
+	at com.makemytrip.testbase.TestBase.startAppiumServer(TestBase.java:69)
+	at com.makemytrip.testscripts.GeneralKeywords.startAppium(GeneralKeywords.java:24)
+	at com.makemytrip.testscripts.Keywords.executeKeywords(Keywords.java:45)
+	at com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(TC_002SignUpPageTestCases.java:28)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 59 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result...)">
+                  </a> <!-- SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result...) -->
+                  <span class="method-name">SignUpPageTestCase</span>
+                  <span class="parameters">({Status=, Mobile=9898989898, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=Please Enter Email., Email=})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:84)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:36)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)
+	at com.makemytrip.testbase.TestBase.selectBrowser(TestBase.java:96)
+	at com.makemytrip.testbase.TestBase.startAppiumServer(TestBase.java:69)
+	at com.makemytrip.testscripts.GeneralKeywords.startAppium(GeneralKeywords.java:24)
+	at com.makemytrip.testscripts.Keywords.executeKeywords(Keywords.java:45)
+	at com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(TC_002SignUpPageTestCases.java:28)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 59 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=YAN, Password=123456, LastName=, Runmode=Y, Expected_Result=P...)">
+                  </a> <!-- SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=YAN, Password=123456, LastName=, Runmode=Y, Expected_Result=P...) -->
+                  <span class="method-name">SignUpPageTestCase</span>
+                  <span class="parameters">({Status=, Mobile=9898989898, FirstName=YAN, Password=123456, LastName=, Runmode=Y, Expected_Result=Please Enter Last Name., Email=yan@yopmail.com})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:84)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:36)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)
+	at com.makemytrip.testbase.TestBase.selectBrowser(TestBase.java:96)
+	at com.makemytrip.testbase.TestBase.startAppiumServer(TestBase.java:69)
+	at com.makemytrip.testscripts.GeneralKeywords.startAppium(GeneralKeywords.java:24)
+	at com.makemytrip.testscripts.Keywords.executeKeywords(Keywords.java:45)
+	at com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(TC_002SignUpPageTestCases.java:28)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 59 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=aaaaa, Password=123456, LastName=jjjjjjjj, Runmode=Y, Expecte...)">
+                  </a> <!-- SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=aaaaa, Password=123456, LastName=jjjjjjjj, Runmode=Y, Expecte...) -->
+                  <span class="method-name">SignUpPageTestCase</span>
+                  <span class="parameters">({Status=, Mobile=9898989898, FirstName=aaaaa, Password=123456, LastName=jjjjjjjj, Runmode=Y, Expected_Result=Your email is already registered with us., Email=aj@yopmail.com})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;169.254.230.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:84)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:36)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)
+	at com.makemytrip.testbase.TestBase.selectBrowser(TestBase.java:96)
+	at com.makemytrip.testbase.TestBase.startAppiumServer(TestBase.java:69)
+	at com.makemytrip.testscripts.GeneralKeywords.startAppium(GeneralKeywords.java:24)
+	at com.makemytrip.testscripts.Keywords.executeKeywords(Keywords.java:45)
+	at com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(TC_002SignUpPageTestCases.java:28)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 59 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.makemytrip.testcases.TC_001LoginTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageTestCases({Status=, Password=, Runmode=N, Expected_Result=Please enter password, Email=Test1})">
+                  </a> <!-- LoginPageTestCases({Status=, Password=, Runmode=N, Expected_Result=Please enter password, Email=Test1}) -->
+                  <span class="method-name">LoginPageTestCases</span>
+                  <span class="parameters">({Status=, Password=, Runmode=N, Expected_Result=Please enter password, Email=Test1})</span>
+                  <div class="stack-trace">org.testng.SkipException: User is set this test case data runmode is No
+	at com.makemytrip.testcases.TC_001LoginTestCases.LoginPageTestCases(TC_001LoginTestCases.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageTestCases({Status=, Password=, Runmode=N, Expected_Result=Please enter Email Id, Email=})">
+                  </a> <!-- LoginPageTestCases({Status=, Password=, Runmode=N, Expected_Result=Please enter Email Id, Email=}) -->
+                  <span class="method-name">LoginPageTestCases</span>
+                  <span class="parameters">({Status=, Password=, Runmode=N, Expected_Result=Please enter Email Id, Email=})</span>
+                  <div class="stack-trace">org.testng.SkipException: User is set this test case data runmode is No
+	at com.makemytrip.testcases.TC_001LoginTestCases.LoginPageTestCases(TC_001LoginTestCases.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Invalid Email Id or Password, Email=Test1@yopam...)">
+                  </a> <!-- LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Invalid Email Id or Password, Email=Test1@yopam...) -->
+                  <span class="method-name">LoginPageTestCases</span>
+                  <span class="parameters">({Status=, Password=Test1, Runmode=N, Expected_Result=Invalid Email Id or Password, Email=Test1@yopamil.com})</span>
+                  <div class="stack-trace">org.testng.SkipException: User is set this test case data runmode is No
+	at com.makemytrip.testcases.TC_001LoginTestCases.LoginPageTestCases(TC_001LoginTestCases.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Please enter Email Id, Email=})">
+                  </a> <!-- LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Please enter Email Id, Email=}) -->
+                  <span class="method-name">LoginPageTestCases</span>
+                  <span class="parameters">({Status=, Password=Test1, Runmode=N, Expected_Result=Please enter Email Id, Email=})</span>
+                  <div class="stack-trace">org.testng.SkipException: User is set this test case data runmode is No
+	at com.makemytrip.testcases.TC_001LoginTestCases.LoginPageTestCases(TC_001LoginTestCases.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Please enter a valid Email Id, Email=Test1})">
+                  </a> <!-- LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Please enter a valid Email Id, Email=Test1}) -->
+                  <span class="method-name">LoginPageTestCases</span>
+                  <span class="parameters">({Status=, Password=Test1, Runmode=N, Expected_Result=Please enter a valid Email Id, Email=Test1})</span>
+                  <div class="stack-trace">org.testng.SkipException: User is set this test case data runmode is No
+	at com.makemytrip.testcases.TC_001LoginTestCases.LoginPageTestCases(TC_001LoginTestCases.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\housingman\workspace\appiumFramework\RegressionTestNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.makemytrip.customlistner.Listners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Login Page Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.makemytrip.testcases.TC_001LoginTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Page Test Cases --&gt;
+  &lt;test name=&quot;Sign Up page Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.makemytrip.testcases.TC_002SignUpPageTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sign Up page Test Cases --&gt;
+  &lt;test name=&quot;Flight Reservation Page Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.makemytrip.testcases.TC_003FlightReservation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Flight Reservation Page Test Cases --&gt;
+  &lt;test name=&quot;New User Sign Up Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.makemytrip.testcases.TC_004NewUserSignupTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- New User Sign Up Test Cases --&gt;
+  &lt;test name=&quot;Flight Listing page Filter Validation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Flight Listing page Filter Validation --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Page Test Cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Sign Up page Test Cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Flight Reservation Page Test Cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">New User Sign Up Test Cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Flight Listing page Filter Validation (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'flightListingPagefilterValidation')
+data.setCell(0, 2, 'com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase')
+data.setCell(0, 3, 292064);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginPageTestCases')
+data.setCell(1, 2, 'com.makemytrip.testcases.TC_001LoginTestCases')
+data.setCell(1, 3, 144262);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'flightReseverationpage')
+data.setCell(2, 2, 'com.makemytrip.testcases.TC_003FlightReservation')
+data.setCell(2, 3, 46069);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SignUpPageTestCase')
+data.setCell(3, 2, 'com.makemytrip.testcases.TC_002SignUpPageTestCases')
+data.setCell(3, 3, 46055);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SignUpPageTestCase')
+data.setCell(4, 2, 'com.makemytrip.testcases.TC_002SignUpPageTestCases')
+data.setCell(4, 3, 46047);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SignUpPageTestCase')
+data.setCell(5, 2, 'com.makemytrip.testcases.TC_002SignUpPageTestCases')
+data.setCell(5, 3, 46044);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginPageTestCases')
+data.setCell(6, 2, 'com.makemytrip.testcases.TC_001LoginTestCases')
+data.setCell(6, 3, 46042);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'SignUpPageTestCase')
+data.setCell(7, 2, 'com.makemytrip.testcases.TC_002SignUpPageTestCases')
+data.setCell(7, 3, 46041);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'SignUpPageTestCase')
+data.setCell(8, 2, 'com.makemytrip.testcases.TC_002SignUpPageTestCases')
+data.setCell(8, 3, 46038);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'SignUpPageTestCase')
+data.setCell(9, 2, 'com.makemytrip.testcases.TC_002SignUpPageTestCases')
+data.setCell(9, 3, 46036);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'newUserSignupTestCase')
+data.setCell(10, 2, 'com.makemytrip.testcases.TC_004NewUserSignupTestCase')
+data.setCell(10, 3, 46030);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'SignUpPageTestCase')
+data.setCell(11, 2, 'com.makemytrip.testcases.TC_002SignUpPageTestCases')
+data.setCell(11, 3, 46027);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'SignUpPageTestCase')
+data.setCell(12, 2, 'com.makemytrip.testcases.TC_002SignUpPageTestCases')
+data.setCell(12, 3, 46019);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'LoginPageTestCases')
+data.setCell(13, 2, 'com.makemytrip.testcases.TC_001LoginTestCases')
+data.setCell(13, 3, 149);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'LoginPageTestCases')
+data.setCell(14, 2, 'com.makemytrip.testcases.TC_001LoginTestCases')
+data.setCell(14, 3, 83);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'LoginPageTestCases')
+data.setCell(15, 2, 'com.makemytrip.testcases.TC_001LoginTestCases')
+data.setCell(15, 3, 50);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'LoginPageTestCases')
+data.setCell(16, 2, 'com.makemytrip.testcases.TC_001LoginTestCases')
+data.setCell(16, 3, 45);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'LoginPageTestCases')
+data.setCell(17, 2, 'com.makemytrip.testcases.TC_001LoginTestCases')
+data.setCell(17, 3, 42);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginPageTestCases({Status=, Password=Test1, Runmode=Y, Expected_Result=Please enter a valid Email Id, Email=Test1})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :LoginPageTestCases</span>
+                <span class="reporter-method-output">Execute test suite name is :LoginPageTestCases</span>
+                <span class="reporter-method-output">startAppium----</span>
+                <span class="reporter-method-output">navigateURL--URL--</span>
+                <span class="reporter-method-output">http://makemytrip.com</span>
+                <span class="reporter-method-output">verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday</span>
+                <span class="reporter-method-output">MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday</span>
+                <span class="reporter-method-output">click--homepage.loginIcon--</span>
+                <span class="reporter-method-output">click--homepage.loginpage.loginBtn--</span>
+                <span class="reporter-method-output">input--homepage.loginpage.login.emailtxtbox--Email</span>
+                <span class="reporter-method-output"><a href='C:\Users\admin\housingman\workspace\appiumFramework\src\main\java\com\makemytrip\failureScreenshots\LoginPageTestCases-03_09_2017_11_47_59.png'><img src='C:\Users\admin\housingman\workspace\appiumFramework\src\main\java\com\makemytrip\failureScreenshots\LoginPageTestCases-03_09_2017_11_47_59.png'height ='100' widght ='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginPageTestCases({Status=, Password=jakay07@, Runmode=Y, Expected_Result=jakay507@gmail.com, Email=jakay507@gmail.com...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :LoginPageTestCases</span>
+                <span class="reporter-method-output">Execute test suite name is :LoginPageTestCases</span>
+                <span class="reporter-method-output">startAppium----</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginPageTestCases({Status=, Password=, Runmode=N, Expected_Result=Please enter password, Email=Test1})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :LoginPageTestCases</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginPageTestCases({Status=, Password=, Runmode=N, Expected_Result=Please enter Email Id, Email=})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :LoginPageTestCases</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Invalid Email Id or Password, Email=Test1@yopam...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :LoginPageTestCases</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Please enter Email Id, Email=})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :LoginPageTestCases</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Please enter a valid Email Id, Email=Test1})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :LoginPageTestCases</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=, Password=123456, LastName=YAN, Runmode=Y, Expected_Result=P...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">Execute test suite name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">startAppium----</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=ILLA, Password=, LastName=N, Runmode=Y, Expected_Result=Pleas...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">Execute test suite name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">startAppium----</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpPageTestCase({Status=, Mobile=, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=Please En...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">Execute test suite name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">startAppium----</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpPageTestCase({Status=, Mobile=788989898, FirstName=ILLA, Password=1234, LastName=N, Runmode=Y, Expected_Result=Pa...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">Execute test suite name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">startAppium----</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpPageTestCase({Status=, Mobile=78898989, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=P...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">Execute test suite name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">startAppium----</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">Execute test suite name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">startAppium----</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=YAN, Password=123456, LastName=, Runmode=Y, Expected_Result=P...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">Execute test suite name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">startAppium----</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=aaaaa, Password=123456, LastName=jjjjjjjj, Runmode=Y, Expecte...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">Execute test suite name is :SignUpPageTestCase</span>
+                <span class="reporter-method-output">startAppium----</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">flightReseverationpage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :flightReseverationpage</span>
+                <span class="reporter-method-output">Execute test suite name is :flightReservationpage</span>
+                <span class="reporter-method-output">startAppium----</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">newUserSignupTestCase</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :newUserSignupTestCase</span>
+                <span class="reporter-method-output">Execute test suite name is :newUserSignupTestCase</span>
+                <span class="reporter-method-output">startAppium----</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">flightListingPagefilterValidation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Automation is Start Test Name is :flightListingPagefilterValidation</span>
+                <span class="reporter-method-output">Execute test suite name is :flightListingPagefilterValidation</span>
+                <span class="reporter-method-output">startAppium----</span>
+                <span class="reporter-method-output">navigateURL--URL--</span>
+                <span class="reporter-method-output">http://makemytrip.com</span>
+                <span class="reporter-method-output">verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday</span>
+                <span class="reporter-method-output">MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday</span>
+                <span class="reporter-method-output">click--homepage.flightlink--</span>
+                <span class="reporter-method-output">click--homepage.flight.fromcity--</span>
+                <span class="reporter-method-output">chooseCityinList--homepage.flight.fromcitylist|homepage.flight.fromSearchbox--New Delhi</span>
+                <span class="reporter-method-output">waitForTextPresent--homepage.flight.searchBtn--</span>
+                <span class="reporter-method-output">click--homepage.flight.tocity--</span>
+                <span class="reporter-method-output">chooseCityinList--homepage.flight.fromcitylist|homepage.flight.fromSearchbox--NYC</span>
+                <span class="reporter-method-output">waitForTextPresent--homepage.flight.searchBtn--</span>
+                <span class="reporter-method-output">click--homepage.flight.checkIndatePicker--</span>
+                <span class="reporter-method-output">datePicker----28/9/2017</span>
+                <span class="reporter-method-output">click--homepage.datepicker.returnCancelIcon--</span>
+                <span class="reporter-method-output">click--homepage.datepicker.okBtn--</span>
+                <span class="reporter-method-output">waitForTextPresent--homepage.flight.searchBtn--</span>
+                <span class="reporter-method-output">click--homepage.flight.adult--</span>
+                <span class="reporter-method-output">numberOfPassengerSelect----2|1|0</span>
+                <span class="reporter-method-output">click--homepage.adultpage.okbtn--</span>
+                <span class="reporter-method-output">waitForTextPresent--homepage.flight.searchBtn--</span>
+                <span class="reporter-method-output">click--homepage.flight.class--</span>
+                <span class="reporter-method-output">selectClass--homepage.class.list--PREMIUM ECONOMY</span>
+                <span class="reporter-method-output">waitForTextPresent--homepage.flight.searchBtn--</span>
+                <span class="reporter-method-output">checkAlertnotificationmsg--notification.message.later--</span>
+                <span class="reporter-method-output">click--homepage.flight.searchBtn--</span>
+                <span class="reporter-method-output">checkAlertnotificationmsg--notification.message.later--</span>
+                <span class="reporter-method-output">verifyTotal--flightlistingpage.flightnames|flightlistingpage.flightinsidecount|flightlistingpage.totalflight--</span>
+                <span class="reporter-method-output"><a href='C:\Users\admin\housingman\workspace\appiumFramework\src\main\java\com\makemytrip\failureScreenshots\flightListingPagefilterValidation-03_09_2017_12_01_32.png'><img src='C:\Users\admin\housingman\workspace\appiumFramework\src\main\java\com\makemytrip\failureScreenshots\flightListingPagefilterValidation-03_09_2017_12_01_32.png'height ='100' widght ='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.makemytrip.testcases.TC_001LoginTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginPageTestCases({Status=, Password=Test1, Runmode=Y, Expected_Result=Please enter a valid Email Id, Email=Test1})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterExecution([TestResult name=LoginPageTestCases status=FAILURE method=TC_001LoginTestCases.LoginPageTestCases(ja...)</span>
+                <span class="method-start">144632 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Invalid Email Id or Password, Email=Test1@yopam...)</span>
+                <span class="method-start">145549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterExecution([TestResult name=LoginPageTestCases status=SKIP method=TC_001LoginTestCases.LoginPageTestCases(java....)</span>
+                <span class="method-start">145600 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Please enter Email Id, Email=})</span>
+                <span class="method-start">145828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterExecution([TestResult name=LoginPageTestCases status=SKIP method=TC_001LoginTestCases.LoginPageTestCases(java....)</span>
+                <span class="method-start">145911 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginPageTestCases({Status=, Password=, Runmode=N, Expected_Result=Please enter password, Email=Test1})</span>
+                <span class="method-start">146297 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterExecution([TestResult name=LoginPageTestCases status=SKIP method=TC_001LoginTestCases.LoginPageTestCases(java....)</span>
+                <span class="method-start">146339 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginPageTestCases({Status=, Password=Test1, Runmode=N, Expected_Result=Please enter a valid Email Id, Email=Test1})</span>
+                <span class="method-start">146566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterExecution([TestResult name=LoginPageTestCases status=SKIP method=TC_001LoginTestCases.LoginPageTestCases(java....)</span>
+                <span class="method-start">146611 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginPageTestCases({Status=, Password=, Runmode=N, Expected_Result=Please enter Email Id, Email=})</span>
+                <span class="method-start">146781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterExecution([TestResult name=LoginPageTestCases status=SKIP method=TC_001LoginTestCases.LoginPageTestCases(java....)</span>
+                <span class="method-start">146930 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginPageTestCases({Status=, Password=jakay07@, Runmode=Y, Expected_Result=jakay507@gmail.com, Email=jakay507@gmail.com...)</span>
+                <span class="method-start">147096 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterExecution([TestResult name=LoginPageTestCases status=FAILURE method=TC_001LoginTestCases.LoginPageTestCases(ja...)</span>
+                <span class="method-start">194162 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.makemytrip.testcases.TC_002SignUpPageTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=aaaaa, Password=123456, LastName=jjjjjjjj, Runmode=Y, Expecte...)</span>
+                <span class="method-start">194377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=, Password=123456, LastName=YAN, Runmode=Y, Expected_Result=P...)</span>
+                <span class="method-start">241451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=YAN, Password=123456, LastName=, Runmode=Y, Expected_Result=P...)</span>
+                <span class="method-start">288531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result...)</span>
+                <span class="method-start">335575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpPageTestCase({Status=, Mobile=9898989898, FirstName=ILLA, Password=, LastName=N, Runmode=Y, Expected_Result=Pleas...)</span>
+                <span class="method-start">382663 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpPageTestCase({Status=, Mobile=, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=Please En...)</span>
+                <span class="method-start">429709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpPageTestCase({Status=, Mobile=78898989, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=P...)</span>
+                <span class="method-start">476773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpPageTestCase({Status=, Mobile=788989898, FirstName=ILLA, Password=1234, LastName=N, Runmode=Y, Expected_Result=Pa...)</span>
+                <span class="method-start">523856 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.makemytrip.testcases.TC_003FlightReservation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">flightReseverationpage</span>
+                <span class="method-start">570969 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.makemytrip.testcases.TC_004NewUserSignupTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">newUserSignupTestCase</span>
+                <span class="method-start">618089 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterExecution([TestResult name=newUserSignupTestCase status=FAILURE method=TC_004NewUserSignupTestCase.newUserSign...)</span>
+                <span class="method-start">665154 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">flightListingPagefilterValidation</span>
+                <span class="method-start">665237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterExecution([TestResult name=flightListingPagefilterValidation status=FAILURE method=TC_005FlightListingPagefilt...)</span>
+                <span class="method-start">957574 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

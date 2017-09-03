@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.makemytrip.customlistner.Listners"></listener>
+	</listeners>
+	<test name="Login Page Test Cases">
+		<classes>
+			<class name="com.makemytrip.testcases.TC_001LoginTestCases"></class>
+		</classes>
+	</test>
+	<test name="Sign Up page Test Cases">
+		<classes>
+			<class name="com.makemytrip.testcases.TC_002SignUpPageTestCases"></class>
+		</classes>
+	</test>
+	<test name="Flight Reservation Page Test Cases">
+		<classes>
+			<class name="com.makemytrip.testcases.TC_003FlightReservation"></class>
+		</classes>
+	</test>
+	<test name="New User Sign Up Test Cases">
+		<classes>
+			<class name="com.makemytrip.testcases.TC_004NewUserSignupTestCase"></class>
+		</classes>
+	</test>
+	<test name="Flight Listing page Filter Validation">
+		<classes>
+			<class
+				name="com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase"></class>
+		</classes>
+	</test>
+</suite>
