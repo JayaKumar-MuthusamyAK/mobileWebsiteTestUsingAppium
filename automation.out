@@ -1,0 +1,819 @@
+2017-09-05 10:16:44 INFO  TestBase:263 - Execute test suite name is :flightListingPagefilterValidation
+2017-09-05 10:16:45 INFO  TestBase:263 - startAppium----
+2017-09-05 10:17:47 INFO  TestBase:263 - navigateURL--URL--
+2017-09-05 10:17:47 INFO  TestBase:263 - http://makemytrip.com
+2017-09-05 10:17:51 INFO  TestBase:263 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-05 10:17:51 INFO  TestBase:263 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-05 10:17:51 INFO  TestBase:263 - click--homepage.flightlink--
+2017-09-05 10:17:56 INFO  TestBase:263 - click--homepage.flight.fromcity--
+2017-09-05 10:17:57 INFO  TestBase:263 - chooseCityinList--homepage.flight.fromcitylist|homepage.flight.fromSearchbox--New Delhi
+2017-09-05 10:18:03 INFO  TestBase:263 - waitForTextPresent--homepage.flight.searchBtn--
+2017-09-05 10:18:03 INFO  TestBase:263 - click--homepage.flight.tocity--
+2017-09-05 10:18:03 INFO  TestBase:263 - chooseCityinList--homepage.flight.fromcitylist|homepage.flight.fromSearchbox--NYC
+2017-09-05 10:18:08 INFO  TestBase:263 - waitForTextPresent--homepage.flight.searchBtn--
+2017-09-05 10:18:08 INFO  TestBase:263 - click--homepage.flight.checkIndatePicker--
+2017-09-05 10:18:09 INFO  TestBase:263 - datePicker----28/9/2017
+2017-09-05 10:18:11 INFO  TestBase:263 - click--homepage.datepicker.returnCancelIcon--
+2017-09-05 10:18:12 INFO  TestBase:263 - click--homepage.datepicker.okBtn--
+2017-09-05 10:18:13 INFO  TestBase:263 - waitForTextPresent--homepage.flight.searchBtn--
+2017-09-05 10:18:14 INFO  TestBase:263 - click--homepage.flight.adult--
+2017-09-05 10:18:14 INFO  TestBase:263 - numberOfPassengerSelect----2|1|0
+2017-09-05 10:18:16 INFO  TestBase:263 - click--homepage.adultpage.okbtn--
+2017-09-05 10:18:16 INFO  TestBase:263 - waitForTextPresent--homepage.flight.searchBtn--
+2017-09-05 10:18:16 INFO  TestBase:263 - click--homepage.flight.class--
+2017-09-05 10:18:17 INFO  TestBase:263 - selectClass--homepage.class.list--PREMIUM ECONOMY
+2017-09-05 10:18:18 INFO  TestBase:263 - waitForTextPresent--homepage.flight.searchBtn--
+2017-09-05 10:18:18 INFO  TestBase:263 - checkAlertnotificationmsg--notification.message.later--
+2017-09-05 10:18:28 INFO  TestBase:263 - click--homepage.flight.searchBtn--
+2017-09-05 10:18:29 INFO  TestBase:263 - checkAlertnotificationmsg--notification.message.later--
+2017-09-05 10:18:39 INFO  TestBase:263 - verifyTotal--flightlistingpage.flightnames|flightlistingpage.flightinsidecount|flightlistingpage.totalflight--
+2017-09-05 10:18:41 INFO  TestBase:263 - stopAppium----
+2017-09-10 23:10:58 INFO  TestBase:263 - Execute test suite name is :SignUpPageTestCase
+2017-09-10 23:10:58 INFO  TestBase:263 - startAppium----
+2017-09-10 23:11:46 INFO  TestBase:263 - Execute test suite name is :SignUpPageTestCase
+2017-09-10 23:11:46 INFO  TestBase:263 - startAppium----
+2017-09-11 21:54:25 INFO  TestBase:267 - Execute test suite name is :SignUpPageTestCase
+2017-09-11 21:54:25 INFO  TestBase:267 - startAppium----
+2017-09-11 21:56:38 INFO  TestBase:267 - Execute test suite name is :SignUpPageTestCase
+2017-09-11 21:56:38 INFO  TestBase:267 - startAppium----
+2017-09-11 21:58:04 INFO  TestBase:267 - navigateURL--URL--
+2017-09-11 21:58:04 INFO  TestBase:267 - http://makemytrip.com
+2017-09-11 21:58:17 INFO  TestBase:267 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-11 21:58:18 INFO  TestBase:267 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-11 21:58:18 INFO  TestBase:267 - click--homepage.loginIcon--
+2017-09-11 21:58:20 INFO  TestBase:267 - click--homepage.loginpage.signupBtn--
+2017-09-11 21:58:29 INFO  TestBase:267 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-11 21:58:31 INFO  TestBase:267 - input--homepage.loginpage.signup.lastname--LastName
+2017-09-11 21:58:32 INFO  TestBase:267 - input--homepage.loginpage.signup.mobile--Mobile
+2017-09-11 21:58:33 INFO  TestBase:267 - input--homepage.loginpage.signup.email--Email
+2017-09-11 21:58:34 INFO  TestBase:267 - input--homepage.loginpage.signup.pwd--Password
+2017-09-11 21:58:34 INFO  TestBase:267 - click--homepage.loginpage.signup.signupBtn--
+2017-09-11 21:58:35 INFO  TestBase:267 - verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result
+2017-09-11 21:58:35 INFO  TestBase:267 - homepage.loginpage.signup.firstnameerr
+2017-09-11 21:58:38 INFO  TestBase:267 - homepage.loginpage.signup.lastnameerr
+2017-09-11 21:58:41 INFO  TestBase:267 - homepage.loginpage.signup.mobileerr
+2017-09-11 21:58:45 INFO  TestBase:267 - homepage.loginpage.signup.emailerr
+2017-09-11 21:58:48 INFO  TestBase:267 - homepage.loginpage.signup.pwserr
+2017-09-11 22:15:22 INFO  TestBase:267 - Execute test suite name is :SignUpPageTestCase
+2017-09-11 22:15:22 INFO  TestBase:267 - startAppium----
+2017-09-11 22:16:32 INFO  TestBase:267 - navigateURL--URL--
+2017-09-11 22:16:32 INFO  TestBase:267 - http://makemytrip.com
+2017-09-11 22:16:35 INFO  TestBase:267 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-11 22:16:36 INFO  TestBase:267 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-11 22:16:36 INFO  TestBase:267 - click--homepage.loginIcon--
+2017-09-11 22:16:38 INFO  TestBase:267 - click--homepage.loginpage.signupBtn--
+2017-09-11 22:16:46 INFO  TestBase:267 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-11 22:16:47 INFO  TestBase:267 - input--homepage.loginpage.signup.lastname--LastName
+2017-09-11 22:16:48 INFO  TestBase:267 - input--homepage.loginpage.signup.mobile--Mobile
+2017-09-11 22:16:49 INFO  TestBase:267 - input--homepage.loginpage.signup.email--Email
+2017-09-11 22:16:50 INFO  TestBase:267 - input--homepage.loginpage.signup.pwd--Password
+2017-09-11 22:16:50 INFO  TestBase:267 - click--homepage.loginpage.signup.signupBtn--
+2017-09-11 22:16:51 INFO  TestBase:267 - verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result
+2017-09-11 22:17:01 INFO  TestBase:267 - Execute test suite name is :SignUpPageTestCase
+2017-09-11 22:17:01 INFO  TestBase:267 - startAppium----
+2017-09-11 22:34:21 INFO  TestBase:268 - Execute test suite name is :SignUpPageTestCase
+2017-09-11 22:34:21 INFO  TestBase:268 - startAppium----
+2017-09-11 22:35:28 INFO  TestBase:268 - navigateURL--URL--
+2017-09-11 22:35:28 INFO  TestBase:268 - http://makemytrip.com
+2017-09-11 22:35:32 INFO  TestBase:268 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-11 22:35:33 INFO  TestBase:268 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-11 22:35:33 INFO  TestBase:268 - click--homepage.loginIcon--
+2017-09-11 22:35:36 INFO  TestBase:268 - click--homepage.loginpage.signupBtn--
+2017-09-11 22:35:38 INFO  TestBase:268 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-11 22:46:07 INFO  TestBase:268 - Execute test suite name is :SignUpPageTestCase
+2017-09-11 22:46:07 INFO  TestBase:268 - startAppium----
+2017-09-11 22:47:14 INFO  TestBase:268 - navigateURL--URL--
+2017-09-11 22:47:14 INFO  TestBase:268 - http://makemytrip.com
+2017-09-11 22:47:27 INFO  TestBase:268 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-11 22:47:27 INFO  TestBase:268 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-11 22:47:27 INFO  TestBase:268 - click--homepage.loginIcon--
+2017-09-11 22:47:30 INFO  TestBase:268 - waitForAlert----
+2017-09-14 21:53:06 INFO  TestBase:268 - Execute test suite name is :LoginPageTestCases
+2017-09-14 21:53:06 INFO  TestBase:268 - startAppium----
+2017-09-14 21:53:56 INFO  TestBase:268 - Execute test suite name is :LoginPageTestCases
+2017-09-14 21:53:56 INFO  TestBase:268 - startAppium----
+2017-09-14 22:29:48 INFO  TestBase:268 - Execute test suite name is :LoginPageTestCases
+2017-09-14 22:29:48 INFO  TestBase:268 - startAppium----
+2017-09-14 22:33:38 INFO  TestBase:268 - Execute test suite name is :LoginPageTestCases
+2017-09-14 22:33:39 INFO  TestBase:268 - startAppium----
+2017-09-14 22:35:20 INFO  TestBase:268 - navigateURL--URL--
+2017-09-14 22:35:20 INFO  TestBase:268 - http://makemytrip.com
+2017-09-14 22:35:35 INFO  TestBase:268 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-14 22:35:35 INFO  TestBase:268 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-14 22:35:35 INFO  TestBase:268 - click--homepage.loginIcon--
+2017-09-14 22:35:36 INFO  TestBase:268 - click--homepage.loginpage.loginBtn--
+2017-09-14 22:35:49 INFO  TestBase:268 - waitForAlert----
+2017-09-14 22:41:58 INFO  TestBase:268 - Execute test suite name is :LoginPageTestCases
+2017-09-14 22:41:58 INFO  TestBase:268 - startAppium----
+2017-09-14 22:43:29 INFO  TestBase:268 - navigateURL--URL--
+2017-09-14 22:43:29 INFO  TestBase:268 - http://makemytrip.com
+2017-09-14 22:43:38 INFO  TestBase:268 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-14 22:43:38 INFO  TestBase:268 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-14 22:43:38 INFO  TestBase:268 - click--homepage.loginIcon--
+2017-09-14 22:43:48 INFO  TestBase:268 - click--homepage.loginpage.loginBtn--
+2017-09-14 22:43:57 INFO  TestBase:268 - input--homepage.loginpage.login.emailtxtbox--Email
+2017-09-14 22:44:27 INFO  TestBase:268 - input--homepage.loginpage.login.pwdtxtbox--Password
+2017-09-14 22:44:28 INFO  TestBase:268 - click--homepage.loginpage.loginBtn--
+2017-09-14 22:44:28 INFO  TestBase:268 - verifyValidation--homepage.loginpage.login.emailerrmsg|homepage.loginpage.login.pwderrmsg--Expected_Result
+2017-09-14 22:44:29 INFO  TestBase:268 - homepage.loginpage.login.emailerrmsg
+2017-09-14 22:44:32 INFO  TestBase:268 - stopAppium----
+2017-09-19 22:02:51 INFO  TestBase:268 - Execute test suite name is :LoginPageTestCases
+2017-09-19 22:02:51 INFO  TestBase:268 - startAppium----
+2017-09-19 22:07:04 INFO  TestBase:268 - Execute test suite name is :LoginPageTestCases
+2017-09-19 22:07:04 INFO  TestBase:268 - startAppium----
+2017-09-19 22:08:42 INFO  TestBase:268 - navigateURL--URL--
+2017-09-19 22:08:42 INFO  TestBase:268 - http://makemytrip.com
+2017-09-19 22:08:48 INFO  TestBase:268 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-19 22:08:48 INFO  TestBase:268 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-19 22:08:49 INFO  TestBase:268 - click--homepage.loginIcon--
+2017-09-19 22:08:51 INFO  TestBase:268 - click--homepage.loginpage.loginBtn--
+2017-09-19 22:09:03 INFO  TestBase:268 - input--homepage.loginpage.login.emailtxtbox--Email
+2017-09-19 22:09:03 INFO  TestBase:268 - input--homepage.loginpage.login.pwdtxtbox--Password
+2017-09-19 22:09:04 INFO  TestBase:268 - click--homepage.loginpage.loginBtn--
+2017-09-19 22:09:05 INFO  TestBase:268 - verifyValidation--homepage.loginpage.login.emailerrmsg|homepage.loginpage.login.pwderrmsg--Expected_Result
+2017-09-19 22:09:05 INFO  TestBase:268 - homepage.loginpage.login.emailerrmsg
+2017-09-19 22:19:37 INFO  TestBase:269 - Execute test suite name is :LoginPageTestCases
+2017-09-19 22:19:37 INFO  TestBase:269 - startAppium----
+2017-09-19 22:21:03 INFO  TestBase:269 - navigateURL--URL--
+2017-09-19 22:21:03 INFO  TestBase:269 - http://makemytrip.com
+2017-09-19 22:21:06 INFO  TestBase:269 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-19 22:21:07 INFO  TestBase:269 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-19 22:21:07 INFO  TestBase:269 - click--homepage.loginIcon--
+2017-09-19 22:21:15 INFO  TestBase:269 - click--homepage.loginpage.loginBtn--
+2017-09-19 22:21:27 INFO  TestBase:269 - input--homepage.loginpage.login.emailtxtbox--Email
+2017-09-19 22:21:28 INFO  TestBase:269 - input--homepage.loginpage.login.pwdtxtbox--Password
+2017-09-19 22:21:28 INFO  TestBase:269 - click--homepage.loginpage.loginBtn--
+2017-09-19 22:21:29 INFO  TestBase:269 - verifyValidation--homepage.loginpage.login.emailerrmsg|homepage.loginpage.login.pwderrmsg--Expected_Result
+2017-09-19 22:21:29 INFO  TestBase:269 - homepage.loginpage.login.emailerrmsg
+2017-09-19 22:21:36 INFO  TestBase:269 - Execute test suite name is :LoginPageTestCases
+2017-09-19 22:21:36 INFO  TestBase:269 - startAppium----
+2017-09-19 22:38:18 INFO  TestBase:269 - Execute test suite name is :LoginPageTestCases
+2017-09-19 22:38:18 INFO  TestBase:269 - startAppium----
+2017-09-19 22:39:43 INFO  TestBase:269 - navigateURL--URL--
+2017-09-19 22:39:43 INFO  TestBase:269 - http://makemytrip.com
+2017-09-19 22:39:46 INFO  TestBase:269 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-19 22:39:46 INFO  TestBase:269 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-19 22:39:46 INFO  TestBase:269 - click--homepage.loginIcon--
+2017-09-19 22:39:52 INFO  TestBase:269 - click--homepage.loginpage.loginBtn--
+2017-09-19 22:40:01 INFO  TestBase:269 - input--homepage.loginpage.login.emailtxtbox--Email
+2017-09-19 22:40:02 INFO  TestBase:269 - input--homepage.loginpage.login.pwdtxtbox--Password
+2017-09-19 22:40:03 INFO  TestBase:269 - click--homepage.loginpage.loginBtn--
+2017-09-19 22:40:03 INFO  TestBase:269 - verifyValidation--homepage.loginpage.login.emailerrmsg|homepage.loginpage.login.pwderrmsg--Expected_Result
+2017-09-19 22:40:04 INFO  TestBase:269 - homepage.loginpage.login.emailerrmsg
+2017-09-19 22:44:05 INFO  TestBase:269 - Execute test suite name is :LoginPageTestCases
+2017-09-19 22:44:05 INFO  TestBase:269 - startAppium----
+2017-09-19 22:45:31 INFO  TestBase:269 - navigateURL--URL--
+2017-09-19 22:45:31 INFO  TestBase:269 - http://makemytrip.com
+2017-09-19 22:45:36 INFO  TestBase:269 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-19 22:45:36 INFO  TestBase:269 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-19 22:45:37 INFO  TestBase:269 - click--homepage.loginIcon--
+2017-09-19 22:45:41 INFO  TestBase:269 - click--homepage.loginpage.loginBtn--
+2017-09-19 22:45:51 INFO  TestBase:269 - input--homepage.loginpage.login.emailtxtbox--Email
+2017-09-19 22:45:55 INFO  TestBase:269 - input--homepage.loginpage.login.pwdtxtbox--Password
+2017-09-19 22:45:56 INFO  TestBase:269 - click--homepage.loginpage.loginBtn--
+2017-09-19 22:45:56 INFO  TestBase:269 - verifyValidation--homepage.loginpage.login.emailerrmsg|homepage.loginpage.login.pwderrmsg--Expected_Result
+2017-09-19 22:45:56 INFO  TestBase:269 - homepage.loginpage.login.emailerrmsg
+2017-09-19 22:46:00 INFO  TestBase:269 - stopAppium----
+2017-09-23 15:28:12 INFO  TestBase:269 - Execute test suite name is :SignUpPageTestCase
+2017-09-23 15:28:12 INFO  TestBase:269 - startAppium----
+2017-09-23 15:29:28 INFO  TestBase:269 - Execute test suite name is :SignUpPageTestCase
+2017-09-23 15:29:28 INFO  TestBase:269 - startAppium----
+2017-09-23 15:31:21 INFO  TestBase:269 - Execute test suite name is :SignUpPageTestCase
+2017-09-23 15:31:22 INFO  TestBase:269 - startAppium----
+2017-09-23 15:32:29 INFO  TestBase:269 - Execute test suite name is :SignUpPageTestCase
+2017-09-23 15:32:29 INFO  TestBase:269 - startAppium----
+2017-09-23 15:37:13 INFO  TestBase:268 - Execute test suite name is :SignUpPageTestCase
+2017-09-23 15:37:13 INFO  TestBase:268 - startAppium----
+2017-09-23 15:38:23 INFO  TestBase:268 - navigateURL--URL--
+2017-09-23 15:38:23 INFO  TestBase:268 - http://makemytrip.com
+2017-09-23 15:38:28 INFO  TestBase:268 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 15:38:28 INFO  TestBase:268 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 15:38:30 INFO  TestBase:268 - click--homepage.loginIcon--
+2017-09-23 15:38:34 INFO  TestBase:268 - waitForAlert----
+2017-09-23 15:38:35 INFO  TestBase:268 - Execute test suite name is :SignUpPageTestCase
+2017-09-23 15:38:35 INFO  TestBase:268 - startAppium----
+2017-09-23 15:51:11 INFO  TestBase:268 - Execute test suite name is :SignUpPageTestCase
+2017-09-23 15:51:11 INFO  TestBase:268 - startAppium----
+2017-09-23 15:52:17 INFO  TestBase:268 - navigateURL--URL--
+2017-09-23 15:52:17 INFO  TestBase:268 - http://makemytrip.com
+2017-09-23 15:52:20 INFO  TestBase:268 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 15:52:21 INFO  TestBase:268 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 15:52:24 INFO  TestBase:268 - click--homepage.loginIcon--
+2017-09-23 15:52:26 INFO  TestBase:268 - click--homepage.loginpage.signupBtn--
+2017-09-23 15:52:33 INFO  TestBase:268 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-23 15:52:34 INFO  TestBase:268 - input--homepage.loginpage.signup.lastname--LastName
+2017-09-23 15:52:35 INFO  TestBase:268 - input--homepage.loginpage.signup.mobile--Mobile
+2017-09-23 15:52:37 INFO  TestBase:268 - input--homepage.loginpage.signup.email--Email
+2017-09-23 15:52:38 INFO  TestBase:268 - input--homepage.loginpage.signup.pwd--Password
+2017-09-23 15:52:39 INFO  TestBase:268 - click--homepage.loginpage.signup.signupBtn--
+2017-09-23 15:52:39 INFO  TestBase:268 - verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result
+2017-09-23 15:52:40 INFO  TestBase:268 - homepage.loginpage.signup.firstnameerr
+2017-09-23 15:52:43 INFO  TestBase:268 - stopAppium----
+2017-09-23 15:52:53 INFO  TestBase:268 - Execute test suite name is :SignUpPageTestCase
+2017-09-23 15:52:53 INFO  TestBase:268 - startAppium----
+2017-09-23 15:53:55 INFO  TestBase:268 - navigateURL--URL--
+2017-09-23 15:53:55 INFO  TestBase:268 - http://makemytrip.com
+2017-09-23 15:53:58 INFO  TestBase:268 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 15:53:58 INFO  TestBase:268 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 15:54:01 INFO  TestBase:268 - click--homepage.loginIcon--
+2017-09-23 15:54:03 INFO  TestBase:268 - click--homepage.loginpage.signupBtn--
+2017-09-23 15:54:08 INFO  TestBase:268 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-23 15:54:11 INFO  TestBase:268 - input--homepage.loginpage.signup.lastname--LastName
+2017-09-23 15:54:11 INFO  TestBase:268 - input--homepage.loginpage.signup.mobile--Mobile
+2017-09-23 15:54:12 INFO  TestBase:268 - input--homepage.loginpage.signup.email--Email
+2017-09-23 15:54:13 INFO  TestBase:268 - input--homepage.loginpage.signup.pwd--Password
+2017-09-23 15:54:14 INFO  TestBase:268 - click--homepage.loginpage.signup.signupBtn--
+2017-09-23 15:54:14 INFO  TestBase:268 - verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result
+2017-09-23 15:54:14 INFO  TestBase:268 - homepage.loginpage.signup.firstnameerr
+2017-09-23 15:54:18 INFO  TestBase:268 - homepage.loginpage.signup.lastnameerr
+2017-09-23 15:54:21 INFO  TestBase:268 - homepage.loginpage.signup.mobileerr
+2017-09-23 15:54:25 INFO  TestBase:268 - stopAppium----
+2017-09-23 15:57:49 INFO  TestBase:268 - Execute test suite name is :LoginPageTestCases
+2017-09-23 15:57:49 INFO  TestBase:268 - startAppium----
+2017-09-23 15:59:47 INFO  TestBase:268 - Execute test suite name is :LoginPageTestCases
+2017-09-23 15:59:47 INFO  TestBase:268 - startAppium----
+2017-09-23 16:00:42 INFO  TestBase:268 - navigateURL--URL--
+2017-09-23 16:00:42 INFO  TestBase:268 - http://makemytrip.com
+2017-09-23 16:00:45 INFO  TestBase:268 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 16:00:45 INFO  TestBase:268 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 16:00:45 INFO  TestBase:268 - click--homepage.loginIcon--
+2017-09-23 16:00:48 INFO  TestBase:268 - click--homepage.loginpage.loginBtn--
+2017-09-23 16:00:57 INFO  TestBase:268 - input--homepage.loginpage.login.emailtxtbox--Email
+2017-09-23 16:00:58 INFO  TestBase:268 - input--homepage.loginpage.login.pwdtxtbox--Password
+2017-09-23 16:00:59 INFO  TestBase:268 - click--homepage.loginpage.loginBtn--
+2017-09-23 16:00:59 INFO  TestBase:268 - verifyValidation--homepage.loginpage.login.emailerrmsg|homepage.loginpage.login.pwderrmsg--Expected_Result
+2017-09-23 16:00:59 INFO  TestBase:268 - homepage.loginpage.login.emailerrmsg
+2017-09-23 16:01:03 INFO  TestBase:268 - stopAppium----
+2017-09-23 16:07:04 INFO  TestBase:268 - Execute test suite name is :SignUpPageTestCase
+2017-09-23 16:07:04 INFO  TestBase:268 - startAppium----
+2017-09-23 16:08:00 INFO  TestBase:268 - navigateURL--URL--
+2017-09-23 16:08:00 INFO  TestBase:268 - http://makemytrip.com
+2017-09-23 16:08:04 INFO  TestBase:268 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 16:08:05 INFO  TestBase:268 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 16:08:07 INFO  TestBase:268 - click--homepage.loginIcon--
+2017-09-23 16:08:11 INFO  TestBase:268 - click--homepage.loginpage.signupBtn--
+2017-09-23 16:08:17 INFO  TestBase:268 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-23 16:08:17 INFO  TestBase:268 - input--homepage.loginpage.signup.lastname--LastName
+2017-09-23 16:08:18 INFO  TestBase:268 - input--homepage.loginpage.signup.mobile--Mobile
+2017-09-23 16:08:19 INFO  TestBase:268 - input--homepage.loginpage.signup.email--Email
+2017-09-23 16:08:20 INFO  TestBase:268 - input--homepage.loginpage.signup.pwd--Password
+2017-09-23 16:08:20 INFO  TestBase:268 - click--homepage.loginpage.signup.signupBtn--
+2017-09-23 16:08:21 INFO  TestBase:268 - verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result
+2017-09-23 16:08:21 INFO  TestBase:268 - homepage.loginpage.signup.firstnameerr
+2017-09-23 16:08:25 INFO  TestBase:268 - stopAppium----
+2017-09-23 16:40:08 INFO  TestBase:268 - Execute test suite name is :SignUpPageTestCase
+2017-09-23 16:40:08 INFO  TestBase:268 - startAppium----
+2017-09-23 16:41:06 INFO  TestBase:268 - navigateURL--URL--
+2017-09-23 16:41:06 INFO  TestBase:268 - http://makemytrip.com
+2017-09-23 16:41:10 INFO  TestBase:268 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 16:41:12 INFO  TestBase:268 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 16:41:12 INFO  TestBase:268 - click--homepage.loginIcon--
+2017-09-23 16:41:15 INFO  TestBase:268 - click--homepage.loginpage.signupBtn--
+2017-09-23 16:41:21 INFO  TestBase:268 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-23 16:41:23 INFO  TestBase:268 - input--homepage.loginpage.signup.lastname--LastName
+2017-09-23 16:41:24 INFO  TestBase:268 - input--homepage.loginpage.signup.mobile--Mobile
+2017-09-23 16:41:25 INFO  TestBase:268 - input--homepage.loginpage.signup.email--Email
+2017-09-23 16:41:26 INFO  TestBase:268 - input--homepage.loginpage.signup.pwd--Password
+2017-09-23 16:41:26 INFO  TestBase:268 - click--homepage.loginpage.signup.signupBtn--
+2017-09-23 16:41:27 INFO  TestBase:268 - verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result
+2017-09-23 16:41:27 INFO  TestBase:268 - homepage.loginpage.signup.firstnameerr
+2017-09-23 16:41:30 INFO  TestBase:268 - stopAppium----
+2017-09-23 17:01:01 INFO  TestBase:269 - Execute test suite name is :SignUpPageTestCase
+2017-09-23 17:01:01 INFO  TestBase:269 - startAppium----
+2017-09-23 17:01:58 INFO  TestBase:269 - navigateURL--URL--
+2017-09-23 17:01:58 INFO  TestBase:269 - http://makemytrip.com
+2017-09-23 17:02:02 INFO  TestBase:269 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 17:02:06 INFO  TestBase:269 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 17:02:06 INFO  TestBase:269 - click--homepage.loginIcon--
+2017-09-23 17:02:09 INFO  TestBase:269 - click--homepage.loginpage.signupBtn--
+2017-09-23 17:02:15 INFO  TestBase:269 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-23 17:02:15 INFO  TestBase:269 - input--homepage.loginpage.signup.lastname--LastName
+2017-09-23 17:02:16 INFO  TestBase:269 - input--homepage.loginpage.signup.mobile--Mobile
+2017-09-23 17:02:17 INFO  TestBase:269 - input--homepage.loginpage.signup.email--Email
+2017-09-23 17:02:18 INFO  TestBase:269 - input--homepage.loginpage.signup.pwd--Password
+2017-09-23 17:02:18 INFO  TestBase:269 - click--homepage.loginpage.signup.signupBtn--
+2017-09-23 17:02:19 INFO  TestBase:269 - verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result
+2017-09-23 17:02:19 INFO  TestBase:269 - homepage.loginpage.signup.firstnameerr
+2017-09-23 17:02:23 INFO  TestBase:269 - stopAppium----
+2017-09-23 17:19:16 INFO  TestBase:271 - Execute test suite name is :SignUpPageTestCase
+2017-09-23 17:19:16 INFO  TestBase:271 - startAppium----
+2017-09-23 17:20:17 INFO  TestBase:271 - navigateURL--URL--
+2017-09-23 17:20:17 INFO  TestBase:271 - http://makemytrip.com
+2017-09-23 17:20:21 INFO  TestBase:271 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 17:20:21 INFO  TestBase:271 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 17:20:24 INFO  TestBase:271 - click--homepage.loginIcon--
+2017-09-23 17:20:27 INFO  TestBase:271 - click--homepage.loginpage.signupBtn--
+2017-09-23 17:20:34 INFO  TestBase:271 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-23 17:20:34 INFO  TestBase:271 - input--homepage.loginpage.signup.lastname--LastName
+2017-09-23 17:20:35 INFO  TestBase:271 - input--homepage.loginpage.signup.mobile--Mobile
+2017-09-23 17:20:36 INFO  TestBase:271 - input--homepage.loginpage.signup.email--Email
+2017-09-23 17:20:37 INFO  TestBase:271 - input--homepage.loginpage.signup.pwd--Password
+2017-09-23 17:20:38 INFO  TestBase:271 - click--homepage.loginpage.signup.signupBtn--
+2017-09-23 17:20:38 INFO  TestBase:271 - verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result
+2017-09-23 17:20:39 INFO  TestBase:271 - homepage.loginpage.signup.firstnameerr
+2017-09-23 17:20:42 INFO  TestBase:271 - stopAppium----
+2017-09-23 17:20:52 INFO  TestBase:271 - Test case status checking
+2017-09-23 17:20:52 INFO  TestBase:271 - Extent Report is Initialize and Started
+2017-09-23 17:20:52 INFO  TestBase:271 - Test case status checking
+2017-09-23 17:20:53 INFO  TestBase:271 - Extent Report is Initialize and Started
+2017-09-23 17:20:53 INFO  TestBase:271 - Test case status checking
+2017-09-23 17:20:53 INFO  TestBase:271 - Extent Report is Initialize and Started
+2017-09-23 17:20:53 INFO  TestBase:271 - Test case status checking
+2017-09-23 17:20:53 INFO  TestBase:271 - Extent Report is Initialize and Started
+2017-09-23 17:20:53 INFO  TestBase:271 - Execute test suite name is :SignUpPageTestCase
+2017-09-23 17:20:53 INFO  TestBase:271 - startAppium----
+2017-09-23 17:21:53 INFO  TestBase:271 - navigateURL--URL--
+2017-09-23 17:21:53 INFO  TestBase:271 - http://makemytrip.com
+2017-09-23 17:21:56 INFO  TestBase:271 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 17:21:56 INFO  TestBase:271 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-23 17:21:56 INFO  TestBase:271 - click--homepage.loginIcon--
+2017-09-23 17:22:01 INFO  TestBase:271 - click--homepage.loginpage.signupBtn--
+2017-09-23 17:22:09 INFO  TestBase:271 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-23 17:22:10 INFO  TestBase:271 - input--homepage.loginpage.signup.lastname--LastName
+2017-09-23 17:22:10 INFO  TestBase:271 - input--homepage.loginpage.signup.mobile--Mobile
+2017-09-23 17:22:11 INFO  TestBase:271 - input--homepage.loginpage.signup.email--Email
+2017-09-23 17:22:12 INFO  TestBase:271 - input--homepage.loginpage.signup.pwd--Password
+2017-09-23 17:22:13 INFO  TestBase:271 - click--homepage.loginpage.signup.signupBtn--
+2017-09-23 17:22:13 INFO  TestBase:271 - verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result
+2017-09-23 17:22:14 INFO  TestBase:271 - homepage.loginpage.signup.firstnameerr
+2017-09-23 17:22:17 INFO  TestBase:271 - homepage.loginpage.signup.lastnameerr
+2017-09-23 17:22:20 INFO  TestBase:271 - homepage.loginpage.signup.mobileerr
+2017-09-23 17:22:24 INFO  TestBase:271 - stopAppium----
+2017-09-23 17:22:34 INFO  TestBase:271 - Test case status checking
+2017-09-23 17:22:34 INFO  TestBase:271 - Extent Report is Initialize and Started
+2017-09-23 17:22:34 INFO  TestBase:271 - Test case status checking
+2017-09-23 17:22:34 INFO  TestBase:271 - Extent Report is Initialize and Started
+2017-09-23 17:22:34 INFO  TestBase:271 - Test case status checking
+2017-09-25 16:45:50 INFO  TestBase:284 - Execute test suite name is :LoginPageTestCases
+2017-09-25 16:45:50 INFO  TestBase:284 - startAppium----
+2017-09-25 16:46:32 INFO  TestBase:284 - Test case status checking
+2017-09-25 16:46:36 INFO  TestBase:284 - Extent Report is Initialize and Started
+2017-09-25 16:46:36 INFO  TestBase:284 - Test case status checking
+2017-09-25 16:46:36 INFO  TestBase:284 - Extent Report is Initialize and Started
+2017-09-25 16:46:36 INFO  TestBase:284 - Test case status checking
+2017-09-25 16:46:36 INFO  TestBase:284 - Extent Report is Initialize and Started
+2017-09-25 16:46:36 INFO  TestBase:284 - Test case status checking
+2017-09-25 16:46:36 INFO  TestBase:284 - Extent Report is Initialize and Started
+2017-09-25 16:46:36 INFO  TestBase:284 - Test case status checking
+2017-09-25 16:46:36 INFO  TestBase:284 - Extent Report is Initialize and Started
+2017-09-25 16:46:36 INFO  TestBase:284 - Test case status checking
+2017-09-25 16:46:37 INFO  TestBase:284 - Extent Report is Initialize and Started
+2017-09-25 16:46:37 INFO  TestBase:284 - Execute test suite name is :SignUpPageTestCase
+2017-09-25 16:46:37 INFO  TestBase:284 - startAppium----
+2017-09-25 16:47:13 INFO  TestBase:284 - Test case status checking
+2017-09-25 17:34:55 INFO  TestBase:294 - Execute test suite name is :LoginPageTestCases
+2017-09-25 17:34:55 INFO  TestBase:294 - startAppium----
+2017-09-25 17:34:55 INFO  TestBase:294 - navigateURL--URL--
+2017-09-25 17:34:55 INFO  TestBase:294 - http://makemytrip.com
+2017-09-25 17:34:55 INFO  TestBase:294 - Test case status checking
+2017-09-25 17:34:56 INFO  TestBase:294 - Extent Report is Initialize and Started
+2017-09-25 17:34:56 INFO  TestBase:294 - Execute test suite name is :SignUpPageTestCase
+2017-09-25 17:34:56 INFO  TestBase:294 - startAppium----
+2017-09-25 17:34:56 INFO  TestBase:294 - navigateURL--URL--
+2017-09-25 17:34:56 INFO  TestBase:294 - http://makemytrip.com
+2017-09-25 17:34:56 INFO  TestBase:294 - Test case status checking
+2017-09-27 17:25:18 INFO  TestBase:284 - Execute test suite name is :LoginPageTestCases
+2017-09-27 17:25:19 INFO  TestBase:284 - startAppium----
+2017-09-27 17:26:03 INFO  TestBase:284 - Test case status checking
+2017-09-27 17:48:31 INFO  TestBase:284 - Execute test suite name is :LoginPageTestCases
+2017-09-27 17:48:32 INFO  TestBase:284 - startAppium----
+2017-09-27 17:49:29 INFO  TestBase:284 - Test case status checking
+2017-09-27 17:52:49 INFO  TestBase:285 - Execute test suite name is :LoginPageTestCases
+2017-09-27 17:52:49 INFO  TestBase:285 - startAppium----
+2017-09-27 17:53:21 INFO  TestBase:285 - Test case status checking
+2017-09-27 18:00:10 INFO  TestBase:285 - Execute test suite name is :LoginPageTestCases
+2017-09-27 18:00:10 INFO  TestBase:285 - startAppium----
+2017-09-27 18:00:42 INFO  TestBase:285 - Test case status checking
+2017-09-27 18:08:18 INFO  TestBase:285 - Execute test suite name is :LoginPageTestCases
+2017-09-27 18:08:18 INFO  TestBase:285 - startAppium----
+2017-09-27 18:10:08 INFO  TestBase:285 - Test case status checking
+2017-09-27 18:25:01 INFO  TestBase:285 - Execute test suite name is :LoginPageTestCases
+2017-09-27 18:25:02 INFO  TestBase:285 - startAppium----
+2017-09-27 18:25:38 INFO  TestBase:285 - Test case status checking
+2017-09-27 18:26:53 INFO  TestBase:285 - Execute test suite name is :LoginPageTestCases
+2017-09-27 18:26:53 INFO  TestBase:285 - startAppium----
+2017-09-28 13:19:06 INFO  TestBase:285 - Execute test suite name is :LoginPageTestCases
+2017-09-28 13:19:06 INFO  TestBase:285 - startAppium----
+2017-09-28 13:19:42 INFO  TestBase:285 - Test case status checking
+2017-09-28 13:21:56 INFO  TestBase:285 - Execute test suite name is :LoginPageTestCases
+2017-09-28 13:21:56 INFO  TestBase:285 - startAppium----
+2017-09-28 13:22:31 INFO  TestBase:285 - Test case status checking
+2017-09-28 13:26:54 INFO  TestBase:285 - Execute test suite name is :LoginPageTestCases
+2017-09-28 13:26:54 INFO  TestBase:285 - startAppium----
+2017-09-28 13:27:34 INFO  TestBase:285 - Test case status checking
+2017-09-28 13:30:01 INFO  TestBase:285 - Execute test suite name is :LoginPageTestCases
+2017-09-28 13:30:01 INFO  TestBase:285 - startAppium----
+2017-09-28 13:30:41 INFO  TestBase:285 - Test case status checking
+2017-09-28 13:44:10 INFO  TestBase:290 - Execute test suite name is :LoginPageTestCases
+2017-09-28 13:44:10 INFO  TestBase:290 - startAppium----
+2017-09-28 13:45:02 INFO  TestBase:290 - Execute test suite name is :LoginPageTestCases
+2017-09-28 13:45:02 INFO  TestBase:290 - startAppium----
+2017-09-28 13:45:42 INFO  TestBase:290 - Test case status checking
+2017-09-28 16:04:43 INFO  TestBase:292 - Execute test suite name is :LoginPageTestCases
+2017-09-28 16:04:43 INFO  TestBase:292 - startAppium----
+2017-09-28 16:05:13 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:05:13 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:05:13 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:05:13 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:05:13 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:05:13 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:05:13 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:05:13 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:05:13 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:05:13 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:05:13 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:05:13 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:05:13 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:07:38 INFO  TestBase:292 - Execute test suite name is :LoginPageTestCases
+2017-09-28 16:07:38 INFO  TestBase:292 - startAppium----
+2017-09-28 16:08:08 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:08:08 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:08:08 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:08:08 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:08:08 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:08:09 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:08:09 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:08:09 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:08:09 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:08:09 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:08:09 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:08:09 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:08:09 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:11:08 INFO  TestBase:292 - Execute test suite name is :LoginPageTestCases
+2017-09-28 16:11:08 INFO  TestBase:292 - startAppium----
+2017-09-28 16:12:21 INFO  TestBase:292 - navigateURL--URL--
+2017-09-28 16:12:21 INFO  TestBase:292 - http://makemytrip.com
+2017-09-28 16:12:24 INFO  TestBase:292 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-28 16:12:25 INFO  TestBase:292 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-28 16:12:28 INFO  TestBase:292 - click--homepage.loginIcon--
+2017-09-28 16:12:29 INFO  TestBase:292 - click--homepage.loginpage.loginBtn--
+2017-09-28 16:12:31 INFO  TestBase:292 - input--homepage.loginpage.login.emailtxtbox--Email
+2017-09-28 16:12:33 INFO  TestBase:292 - input--homepage.loginpage.login.pwdtxtbox--Password
+2017-09-28 16:12:34 INFO  TestBase:292 - click--homepage.loginpage.loginBtn--
+2017-09-28 16:12:35 INFO  TestBase:292 - verifyValidation--homepage.loginpage.login.emailerrmsg|homepage.loginpage.login.pwderrmsg--Expected_Result
+2017-09-28 16:12:35 INFO  TestBase:292 - homepage.loginpage.login.emailerrmsg
+2017-09-28 16:12:39 INFO  TestBase:292 - stopAppium----
+2017-09-28 16:12:49 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:12:49 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:12:49 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:12:49 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:12:49 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:12:49 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:12:49 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:12:49 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:12:49 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:12:49 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:12:49 INFO  TestBase:292 - Test case status checking
+2017-09-28 16:12:49 INFO  TestBase:292 - Extent Report is Initialize and Started
+2017-09-28 16:12:49 INFO  TestBase:292 - Test case status checking
+2017-09-29 14:37:29 INFO  TestBase:313 - Execute test suite name is :LoginPageTestCases
+2017-09-29 14:37:29 INFO  TestBase:313 - startAppium----
+2017-09-29 14:37:29 INFO  TestBase:313 - navigateURL--URL--
+2017-09-29 14:37:29 INFO  TestBase:313 - http://makemytrip.com
+2017-09-29 14:37:37 INFO  TestBase:313 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 14:37:38 INFO  TestBase:313 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 14:37:38 INFO  TestBase:313 - click--homepage.loginIcon--
+2017-09-29 14:37:41 INFO  TestBase:313 - click--homepage.loginpage.loginBtn--
+2017-09-29 14:37:42 INFO  TestBase:313 - input--homepage.loginpage.login.emailtxtbox--Email
+2017-09-29 14:37:58 INFO  TestBase:313 - input--homepage.loginpage.login.pwdtxtbox--Password
+2017-09-29 14:37:59 INFO  TestBase:313 - click--homepage.loginpage.loginBtn--
+2017-09-29 14:38:00 INFO  TestBase:313 - verifyValidation--homepage.loginpage.login.emailerrmsg|homepage.loginpage.login.pwderrmsg--Expected_Result
+2017-09-29 14:38:00 INFO  TestBase:313 - homepage.loginpage.login.emailerrmsg
+2017-09-29 14:38:03 INFO  TestBase:313 - stopAppium----
+2017-09-29 14:38:14 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:38:15 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:38:15 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:38:15 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:38:15 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:38:15 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:38:15 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:38:15 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:38:15 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:38:16 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:38:16 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:38:16 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:38:16 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:55:56 INFO  TestBase:313 - Execute test suite name is :LoginPageTestCases
+2017-09-29 14:55:56 INFO  TestBase:313 - startAppium----
+2017-09-29 14:55:56 INFO  TestBase:313 - navigateURL--URL--
+2017-09-29 14:55:56 INFO  TestBase:313 - http://makemytrip.com
+2017-09-29 14:55:59 INFO  TestBase:313 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 14:55:59 INFO  TestBase:313 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 14:56:03 INFO  TestBase:313 - click--homepage.loginIcon--
+2017-09-29 14:56:05 INFO  TestBase:313 - click--homepage.loginpage.loginBtn--
+2017-09-29 14:56:08 INFO  TestBase:313 - input--homepage.loginpage.login.emailtxtbox--Email
+2017-09-29 14:56:08 INFO  TestBase:313 - input--homepage.loginpage.login.pwdtxtbox--Password
+2017-09-29 14:56:09 INFO  TestBase:313 - click--homepage.loginpage.loginBtn--
+2017-09-29 14:56:10 INFO  TestBase:313 - verifyValidation--homepage.loginpage.login.emailerrmsg|homepage.loginpage.login.pwderrmsg--Expected_Result
+2017-09-29 14:56:10 INFO  TestBase:313 - homepage.loginpage.login.emailerrmsg
+2017-09-29 14:56:13 INFO  TestBase:313 - stopAppium----
+2017-09-29 14:56:23 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:56:24 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:56:24 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:56:24 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:56:24 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:56:24 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:56:24 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:56:24 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:56:24 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:56:24 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:56:24 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:56:24 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:56:24 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:57:29 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:57:29 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:57:29 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:57:29 INFO  TestBase:313 - Execute test suite name is :SignUpPageTestCase
+2017-09-29 14:57:29 INFO  TestBase:313 - startAppium----
+2017-09-29 14:57:29 INFO  TestBase:313 - navigateURL--URL--
+2017-09-29 14:57:29 INFO  TestBase:313 - http://makemytrip.com
+2017-09-29 14:57:33 INFO  TestBase:313 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 14:57:33 INFO  TestBase:313 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 14:57:34 INFO  TestBase:313 - click--homepage.loginIcon--
+2017-09-29 14:57:37 INFO  TestBase:313 - click--homepage.loginpage.signupBtn--
+2017-09-29 14:57:39 INFO  TestBase:313 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-29 14:57:41 INFO  TestBase:313 - input--homepage.loginpage.signup.lastname--LastName
+2017-09-29 14:57:42 INFO  TestBase:313 - input--homepage.loginpage.signup.mobile--Mobile
+2017-09-29 14:57:43 INFO  TestBase:313 - input--homepage.loginpage.signup.email--Email
+2017-09-29 14:57:44 INFO  TestBase:313 - input--homepage.loginpage.signup.pwd--Password
+2017-09-29 14:57:45 INFO  TestBase:313 - click--homepage.loginpage.signup.signupBtn--
+2017-09-29 14:57:45 INFO  TestBase:313 - verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result
+2017-09-29 14:57:46 INFO  TestBase:313 - homepage.loginpage.signup.firstnameerr
+2017-09-29 14:57:49 INFO  TestBase:313 - stopAppium----
+2017-09-29 14:57:59 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:57:59 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:57:59 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:57:59 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:57:59 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:57:59 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:57:59 INFO  TestBase:313 - Test case status checking
+2017-09-29 14:57:59 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 14:57:59 INFO  TestBase:313 - Execute test suite name is :SignUpPageTestCase
+2017-09-29 14:57:59 INFO  TestBase:313 - startAppium----
+2017-09-29 14:57:59 INFO  TestBase:313 - navigateURL--URL--
+2017-09-29 14:57:59 INFO  TestBase:313 - http://makemytrip.com
+2017-09-29 14:58:00 INFO  TestBase:313 - Test case status checking
+2017-09-29 15:08:49 INFO  TestBase:314 - Execute test suite name is :LoginPageTestCases
+2017-09-29 15:08:49 INFO  TestBase:314 - startAppium----
+2017-09-29 15:08:49 INFO  TestBase:314 - navigateURL--URL--
+2017-09-29 15:08:49 INFO  TestBase:314 - http://makemytrip.com
+2017-09-29 15:08:52 INFO  TestBase:314 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 15:08:53 INFO  TestBase:314 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 15:08:53 INFO  TestBase:314 - click--homepage.loginIcon--
+2017-09-29 15:08:55 INFO  TestBase:314 - click--homepage.loginpage.loginBtn--
+2017-09-29 15:08:57 INFO  TestBase:314 - input--homepage.loginpage.login.emailtxtbox--Email
+2017-09-29 15:09:00 INFO  TestBase:314 - input--homepage.loginpage.login.pwdtxtbox--Password
+2017-09-29 15:09:00 INFO  TestBase:314 - click--homepage.loginpage.loginBtn--
+2017-09-29 15:09:01 INFO  TestBase:314 - verifyValidation--homepage.loginpage.login.emailerrmsg|homepage.loginpage.login.pwderrmsg--Expected_Result
+2017-09-29 15:09:01 INFO  TestBase:314 - homepage.loginpage.login.emailerrmsg
+2017-09-29 15:09:05 INFO  TestBase:314 - stopAppium----
+2017-09-29 15:09:15 INFO  TestBase:314 - Extent Report is Initialize and Started
+2017-09-29 15:09:15 INFO  TestBase:314 - Extent Report is Initialize and Started
+2017-09-29 15:09:15 INFO  TestBase:314 - Extent Report is Initialize and Started
+2017-09-29 15:09:15 INFO  TestBase:314 - Extent Report is Initialize and Started
+2017-09-29 15:09:15 INFO  TestBase:314 - Extent Report is Initialize and Started
+2017-09-29 15:09:15 INFO  TestBase:314 - Extent Report is Initialize and Started
+2017-09-29 15:10:12 INFO  TestBase:314 - Extent Report is Initialize and Started
+2017-09-29 15:10:12 INFO  TestBase:314 - Extent Report is Initialize and Started
+2017-09-29 15:10:12 INFO  TestBase:314 - Execute test suite name is :SignUpPageTestCase
+2017-09-29 15:10:12 INFO  TestBase:314 - startAppium----
+2017-09-29 15:10:12 INFO  TestBase:314 - navigateURL--URL--
+2017-09-29 15:10:12 INFO  TestBase:314 - http://makemytrip.com
+2017-09-29 15:10:16 INFO  TestBase:314 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 15:10:16 INFO  TestBase:314 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 15:10:16 INFO  TestBase:314 - click--homepage.loginIcon--
+2017-09-29 15:10:20 INFO  TestBase:314 - click--homepage.loginpage.signupBtn--
+2017-09-29 15:10:28 INFO  TestBase:314 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-29 15:10:31 INFO  TestBase:314 - input--homepage.loginpage.signup.lastname--LastName
+2017-09-29 15:10:31 INFO  TestBase:314 - input--homepage.loginpage.signup.mobile--Mobile
+2017-09-29 15:10:32 INFO  TestBase:314 - input--homepage.loginpage.signup.email--Email
+2017-09-29 15:10:33 INFO  TestBase:314 - input--homepage.loginpage.signup.pwd--Password
+2017-09-29 15:10:34 INFO  TestBase:314 - click--homepage.loginpage.signup.signupBtn--
+2017-09-29 15:10:34 INFO  TestBase:314 - verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result
+2017-09-29 15:10:34 INFO  TestBase:314 - homepage.loginpage.signup.firstnameerr
+2017-09-29 15:10:38 INFO  TestBase:314 - stopAppium----
+2017-09-29 15:10:48 INFO  TestBase:314 - Extent Report is Initialize and Started
+2017-09-29 15:10:48 INFO  TestBase:314 - Extent Report is Initialize and Started
+2017-09-29 15:10:48 INFO  TestBase:314 - Extent Report is Initialize and Started
+2017-09-29 15:10:48 INFO  TestBase:314 - Extent Report is Initialize and Started
+2017-09-29 15:10:48 INFO  TestBase:314 - Execute test suite name is :SignUpPageTestCase
+2017-09-29 15:10:48 INFO  TestBase:314 - startAppium----
+2017-09-29 15:10:48 INFO  TestBase:314 - navigateURL--URL--
+2017-09-29 15:10:48 INFO  TestBase:314 - http://makemytrip.com
+2017-09-29 15:10:49 INFO  TestBase:314 - Extent Report is Initialize and Started
+2017-09-29 15:10:49 INFO  TestBase:314 - Extent Report is Initialize and Started
+2017-09-29 15:22:49 INFO  TestBase:313 - Execute test suite name is :LoginPageTestCases
+2017-09-29 15:22:49 INFO  TestBase:313 - startAppium----
+2017-09-29 15:22:49 INFO  TestBase:313 - navigateURL--URL--
+2017-09-29 15:22:49 INFO  TestBase:313 - http://makemytrip.com
+2017-09-29 15:22:49 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:22:49 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:22:49 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:22:49 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:22:49 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:22:49 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:23:36 INFO  TestBase:313 - Execute test suite name is :LoginPageTestCases
+2017-09-29 15:23:36 INFO  TestBase:313 - startAppium----
+2017-09-29 15:24:07 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:24:07 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:24:07 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:24:07 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:24:07 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:24:07 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:26:17 INFO  TestBase:313 - Execute test suite name is :LoginPageTestCases
+2017-09-29 15:26:17 INFO  TestBase:313 - startAppium----
+2017-09-29 15:26:48 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:26:48 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:26:48 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:26:48 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:26:48 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:26:48 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:29:06 INFO  TestBase:313 - Execute test suite name is :LoginPageTestCases
+2017-09-29 15:29:06 INFO  TestBase:313 - startAppium----
+2017-09-29 15:29:36 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:29:36 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:29:36 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:29:36 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:29:36 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:29:36 INFO  TestBase:313 - Extent Report is Initialize and Started
+2017-09-29 15:30:53 INFO  TestBase:301 - Execute test suite name is :LoginPageTestCases
+2017-09-29 15:30:53 INFO  TestBase:301 - startAppium----
+2017-09-29 15:31:45 INFO  TestBase:301 - navigateURL--URL--
+2017-09-29 15:31:45 INFO  TestBase:301 - http://makemytrip.com
+2017-09-29 15:31:48 INFO  TestBase:301 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 15:31:48 INFO  TestBase:301 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 15:31:49 INFO  TestBase:301 - click--homepage.loginIcon--
+2017-09-29 15:31:51 INFO  TestBase:301 - click--homepage.loginpage.loginBtn--
+2017-09-29 15:31:57 INFO  TestBase:301 - input--homepage.loginpage.login.emailtxtbox--Email
+2017-09-29 15:32:05 INFO  TestBase:301 - input--homepage.loginpage.login.pwdtxtbox--Password
+2017-09-29 15:32:06 INFO  TestBase:301 - click--homepage.loginpage.loginBtn--
+2017-09-29 15:32:07 INFO  TestBase:301 - verifyValidation--homepage.loginpage.login.emailerrmsg|homepage.loginpage.login.pwderrmsg--Expected_Result
+2017-09-29 15:32:07 INFO  TestBase:301 - homepage.loginpage.login.emailerrmsg
+2017-09-29 15:32:10 INFO  TestBase:301 - stopAppium----
+2017-09-29 15:32:20 INFO  TestBase:301 - Extent Report is Initialize and Started
+2017-09-29 15:32:20 INFO  TestBase:301 - Extent Report is Initialize and Started
+2017-09-29 15:32:20 INFO  TestBase:301 - Extent Report is Initialize and Started
+2017-09-29 15:32:20 INFO  TestBase:301 - Extent Report is Initialize and Started
+2017-09-29 15:32:20 INFO  TestBase:301 - Extent Report is Initialize and Started
+2017-09-29 15:32:20 INFO  TestBase:301 - Extent Report is Initialize and Started
+2017-09-29 15:35:31 INFO  TestBase:301 - Execute test suite name is :LoginPageTestCases
+2017-09-29 15:35:31 INFO  TestBase:301 - startAppium----
+2017-09-29 15:35:54 INFO  TestBase:301 - Execute test suite name is :LoginPageTestCases
+2017-09-29 15:35:54 INFO  TestBase:301 - startAppium----
+2017-09-29 15:36:47 INFO  TestBase:301 - navigateURL--URL--
+2017-09-29 15:36:47 INFO  TestBase:301 - http://makemytrip.com
+2017-09-29 15:36:51 INFO  TestBase:301 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 15:36:51 INFO  TestBase:301 - MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 15:36:51 INFO  TestBase:301 - click--homepage.loginIcon--
+2017-09-29 15:36:54 INFO  TestBase:301 - click--homepage.loginpage.loginBtn--
+2017-09-29 15:36:57 INFO  TestBase:301 - input--homepage.loginpage.login.emailtxtbox--Email
+2017-09-29 15:36:58 INFO  TestBase:301 - input--homepage.loginpage.login.pwdtxtbox--Password
+2017-09-29 15:36:59 INFO  TestBase:301 - click--homepage.loginpage.loginBtn--
+2017-09-29 15:36:59 INFO  TestBase:301 - verifyValidation--homepage.loginpage.login.emailerrmsg|homepage.loginpage.login.pwderrmsg--Expected_Result
+2017-09-29 15:36:59 INFO  TestBase:301 - homepage.loginpage.login.emailerrmsg
+2017-09-29 15:37:03 INFO  TestBase:301 - stopAppium----
+2017-09-29 15:37:13 INFO  TestBase:301 - Test case status checking
+2017-09-29 15:37:13 INFO  TestBase:301 - Extent Report is Initialize and Started
+2017-09-29 15:37:13 INFO  TestBase:301 - Test case status checking
+2017-09-29 15:37:13 INFO  TestBase:301 - Extent Report is Initialize and Started
+2017-09-29 15:37:13 INFO  TestBase:301 - Test case status checking
+2017-09-29 15:37:14 INFO  TestBase:301 - Extent Report is Initialize and Started
+2017-09-29 15:37:14 INFO  TestBase:301 - Test case status checking
+2017-09-29 15:37:14 INFO  TestBase:301 - Extent Report is Initialize and Started
+2017-09-29 15:37:14 INFO  TestBase:301 - Test case status checking
+2017-09-29 15:37:14 INFO  TestBase:301 - Extent Report is Initialize and Started
+2017-09-29 15:37:14 INFO  TestBase:301 - Test case status checking
+2017-09-29 15:37:14 INFO  TestBase:301 - Extent Report is Initialize and Started
+2017-09-29 15:37:14 INFO  TestBase:301 - Test case status checking
+2017-09-29 16:07:11 INFO  TestBase:300 - Execute test suite name is :LoginPageTestCases
+2017-09-29 16:07:11 INFO  TestBase:300 - startAppium----
+2017-09-29 16:07:11 INFO  TestBase:300 - Appium and Emulator device is Started..
+2017-09-29 16:08:02 INFO  TestBase:300 - navigateURL--URL--
+2017-09-29 16:08:02 INFO  TestBase:300 - Navigating to this URL :http://makemytrip.com
+2017-09-29 16:08:04 INFO  TestBase:300 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 16:08:05 INFO  TestBase:300 - Verifing the title :MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 16:08:05 INFO  TestBase:300 - click--homepage.loginIcon--
+2017-09-29 16:08:05 INFO  TestBase:300 - Clicking the given link or element
+2017-09-29 16:08:10 INFO  TestBase:300 - click--homepage.loginpage.loginBtn--
+2017-09-29 16:08:10 INFO  TestBase:300 - Clicking the given link or element
+2017-09-29 16:08:13 INFO  TestBase:300 - input--homepage.loginpage.login.emailtxtbox--Email
+2017-09-29 16:08:13 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:08:14 INFO  TestBase:300 - input--homepage.loginpage.login.pwdtxtbox--Password
+2017-09-29 16:08:14 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:08:15 INFO  TestBase:300 - click--homepage.loginpage.loginBtn--
+2017-09-29 16:08:15 INFO  TestBase:300 - Clicking the given link or element
+2017-09-29 16:08:16 INFO  TestBase:300 - verifyValidation--homepage.loginpage.login.emailerrmsg|homepage.loginpage.login.pwderrmsg--Expected_Result
+2017-09-29 16:08:16 INFO  TestBase:300 - Verifying the Validation Actual result Matching with Expected result 
+2017-09-29 16:08:16 INFO  TestBase:300 - homepage.loginpage.login.emailerrmsg
+2017-09-29 16:08:19 INFO  TestBase:300 - stopAppium----
+2017-09-29 16:08:19 INFO  TestBase:300 - Stoping the Appium Server
+2017-09-29 16:08:29 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:08:29 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:08:29 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:08:30 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:08:30 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:08:30 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:08:30 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:13:15 INFO  TestBase:300 - Execute test suite name is :SignUpPageTestCase
+2017-09-29 16:13:15 INFO  TestBase:300 - startAppium----
+2017-09-29 16:13:15 INFO  TestBase:300 - Appium and Emulator device is Started..
+2017-09-29 16:14:04 INFO  TestBase:300 - navigateURL--URL--
+2017-09-29 16:14:04 INFO  TestBase:300 - Navigating to this URL :http://makemytrip.com
+2017-09-29 16:14:08 INFO  TestBase:300 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 16:14:08 INFO  TestBase:300 - Verifing the title :MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 16:14:08 INFO  TestBase:300 - click--homepage.loginIcon--
+2017-09-29 16:14:08 INFO  TestBase:300 - Clicking the given link or element
+2017-09-29 16:14:13 INFO  TestBase:300 - click--homepage.loginpage.signupBtn--
+2017-09-29 16:14:13 INFO  TestBase:300 - Clicking the given link or element
+2017-09-29 16:14:15 INFO  TestBase:300 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-29 16:14:15 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:14:17 INFO  TestBase:300 - input--homepage.loginpage.signup.lastname--LastName
+2017-09-29 16:14:17 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:14:18 INFO  TestBase:300 - input--homepage.loginpage.signup.mobile--Mobile
+2017-09-29 16:14:18 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:14:18 INFO  TestBase:300 - input--homepage.loginpage.signup.email--Email
+2017-09-29 16:14:18 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:14:19 INFO  TestBase:300 - input--homepage.loginpage.signup.pwd--Password
+2017-09-29 16:14:19 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:14:20 INFO  TestBase:300 - click--homepage.loginpage.signup.signupBtn--
+2017-09-29 16:14:20 INFO  TestBase:300 - Clicking the given link or element
+2017-09-29 16:14:21 INFO  TestBase:300 - verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result
+2017-09-29 16:14:21 INFO  TestBase:300 - Verifying the Validation Actual result Matching with Expected result 
+2017-09-29 16:14:21 INFO  TestBase:300 - homepage.loginpage.signup.firstnameerr
+2017-09-29 16:14:24 INFO  TestBase:300 - stopAppium----
+2017-09-29 16:14:24 INFO  TestBase:300 - Stoping the Appium Server
+2017-09-29 16:14:24 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:14:25 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:14:25 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:14:25 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:14:25 INFO  TestBase:300 - Execute test suite name is :SignUpPageTestCase
+2017-09-29 16:14:25 INFO  TestBase:300 - startAppium----
+2017-09-29 16:14:25 INFO  TestBase:300 - Appium and Emulator device is Started..
+2017-09-29 16:14:55 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:14:56 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:14:56 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:22:58 INFO  TestBase:300 - Execute test suite name is :SignUpPageTestCase
+2017-09-29 16:22:58 INFO  TestBase:300 - startAppium----
+2017-09-29 16:22:58 INFO  TestBase:300 - Appium and Emulator device is Started..
+2017-09-29 16:23:48 INFO  TestBase:300 - navigateURL--URL--
+2017-09-29 16:23:48 INFO  TestBase:300 - Navigating to this URL :http://makemytrip.com
+2017-09-29 16:23:51 INFO  TestBase:300 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 16:23:52 INFO  TestBase:300 - Verifing the title :MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 16:23:52 INFO  TestBase:300 - click--homepage.loginIcon--
+2017-09-29 16:23:52 INFO  TestBase:300 - Clicking the given link or element
+2017-09-29 16:23:53 INFO  TestBase:300 - click--homepage.loginpage.signupBtn--
+2017-09-29 16:23:53 INFO  TestBase:300 - Clicking the given link or element
+2017-09-29 16:24:02 INFO  TestBase:300 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-29 16:24:02 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:24:02 INFO  TestBase:300 - input--homepage.loginpage.signup.lastname--LastName
+2017-09-29 16:24:02 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:24:03 INFO  TestBase:300 - input--homepage.loginpage.signup.mobile--Mobile
+2017-09-29 16:24:03 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:24:04 INFO  TestBase:300 - input--homepage.loginpage.signup.email--Email
+2017-09-29 16:24:04 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:24:05 INFO  TestBase:300 - input--homepage.loginpage.signup.pwd--Password
+2017-09-29 16:24:05 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:24:05 INFO  TestBase:300 - click--homepage.loginpage.signup.signupBtn--
+2017-09-29 16:24:05 INFO  TestBase:300 - Clicking the given link or element
+2017-09-29 16:24:06 INFO  TestBase:300 - verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result
+2017-09-29 16:24:06 INFO  TestBase:300 - Verifying the Validation Actual result Matching with Expected result 
+2017-09-29 16:24:06 INFO  TestBase:300 - homepage.loginpage.signup.firstnameerr
+2017-09-29 16:24:10 INFO  TestBase:300 - stopAppium----
+2017-09-29 16:24:10 INFO  TestBase:300 - Stoping the Appium Server
+2017-09-29 16:24:10 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:24:10 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:24:10 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:24:10 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:24:10 INFO  TestBase:300 - Execute test suite name is :SignUpPageTestCase
+2017-09-29 16:24:10 INFO  TestBase:300 - startAppium----
+2017-09-29 16:24:10 INFO  TestBase:300 - Appium and Emulator device is Started..
+2017-09-29 16:25:03 INFO  TestBase:300 - navigateURL--URL--
+2017-09-29 16:25:03 INFO  TestBase:300 - Navigating to this URL :http://makemytrip.com
+2017-09-29 16:25:06 INFO  TestBase:300 - verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 16:25:06 INFO  TestBase:300 - Verifing the title :MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday
+2017-09-29 16:25:06 INFO  TestBase:300 - click--homepage.loginIcon--
+2017-09-29 16:25:06 INFO  TestBase:300 - Clicking the given link or element
+2017-09-29 16:25:12 INFO  TestBase:300 - click--homepage.loginpage.signupBtn--
+2017-09-29 16:25:12 INFO  TestBase:300 - Clicking the given link or element
+2017-09-29 16:25:18 INFO  TestBase:300 - input--homepage.loginpage.signup.firstname--FirstName
+2017-09-29 16:25:18 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:25:18 INFO  TestBase:300 - input--homepage.loginpage.signup.lastname--LastName
+2017-09-29 16:25:18 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:25:19 INFO  TestBase:300 - input--homepage.loginpage.signup.mobile--Mobile
+2017-09-29 16:25:19 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:25:19 INFO  TestBase:300 - input--homepage.loginpage.signup.email--Email
+2017-09-29 16:25:19 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:25:20 INFO  TestBase:300 - input--homepage.loginpage.signup.pwd--Password
+2017-09-29 16:25:20 INFO  TestBase:300 - Entering the data to given element (Text Box
+2017-09-29 16:25:21 INFO  TestBase:300 - click--homepage.loginpage.signup.signupBtn--
+2017-09-29 16:25:21 INFO  TestBase:300 - Clicking the given link or element
+2017-09-29 16:25:22 INFO  TestBase:300 - verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result
+2017-09-29 16:25:22 INFO  TestBase:300 - Verifying the Validation Actual result Matching with Expected result 
+2017-09-29 16:25:22 INFO  TestBase:300 - homepage.loginpage.signup.firstnameerr
+2017-09-29 16:25:25 INFO  TestBase:300 - homepage.loginpage.signup.lastnameerr
+2017-09-29 16:25:28 INFO  TestBase:300 - homepage.loginpage.signup.mobileerr
+2017-09-29 16:25:32 INFO  TestBase:300 - stopAppium----
+2017-09-29 16:25:32 INFO  TestBase:300 - Stoping the Appium Server
+2017-09-29 16:25:32 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:25:32 INFO  TestBase:300 - Test case status checking
+2017-09-29 16:25:32 INFO  TestBase:300 - Test case status checking

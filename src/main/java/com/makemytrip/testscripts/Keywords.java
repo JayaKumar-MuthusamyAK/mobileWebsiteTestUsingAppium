@@ -5,6 +5,7 @@ import java.net.MalformedURLException;
 import java.util.Hashtable;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
@@ -13,7 +14,7 @@ import com.makemytrip.testbase.TestBase;
 
 public class Keywords extends TestBase {
 	
-	public static final Logger log = Logger.getLogger(TestBase.class.getName());
+	public static final Logger log = Logger.getLogger(Keywords.class.getName());
 
 	public static Xls_Reader xls = new Xls_Reader(
 			System.getProperty("user.dir") + "/src/main/java/com/makemytrip/testdata/TestSuite1.xlsx");
@@ -22,6 +23,7 @@ public class Keywords extends TestBase {
 	public void executeKeywords(String testcases, Hashtable<String, String> data) throws Exception {
 
 		loadproperties();
+		PropertyConfigurator.configure("log4j.properties");
 		
 		log("Execute test suite name is :"+testcases);
 		for (int rNum = 2; rNum <= xls.getRowCount("Test Steps"); rNum++) {
@@ -54,10 +56,7 @@ public class Keywords extends TestBase {
 					result = genKeywords.click(objectkeys);
 					break;
 				case "input":
-					result = genKeywords.input(objectkeys,data.get(datakeys));
-					break;
-				case "directInput":
-					result = genKeywords.directInput(objectkeys,datakeys);
+					if(data!=null)result = genKeywords.input(objectkeys,data.get(datakeys));else result=genKeywords.input(objectkeys, datakeys);
 					break;
 				
 				case "randomInput":
@@ -105,6 +104,9 @@ public class Keywords extends TestBase {
 					break;
 				case "verifyPassengerCount":
 					result = genKeywords.verifyPassengerCount(objectkeys);
+					break;
+				case "waitForAlert":
+					result= genKeywords.waitForAlert();
 					break;
 				case "stopAppium":
 					result = genKeywords.stopAppium();

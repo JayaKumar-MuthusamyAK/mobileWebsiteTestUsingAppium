@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="5">
+<test name="Login Page Test">
+<parameter name="device" value="Nexus7"></parameter>
+<parameter name="appium_URL" value="127.0.0.1:4723/wd/hub"></parameter>
+<parameter name="address" value="127.0.0.1"></parameter>
+<classes>
+<class name="com.makemytrip.testcases.TC_001LoginTestCases"></class>
+</classes>
+</test>
+
+<test name="Sign Up Page Test">
+<parameter name="device" value="Nexus6"></parameter>
+<parameter name="appium_URL" value="127.0.0.2:4723/wd/hub"></parameter>
+<parameter name="address" value="127.0.0.2"></parameter>
+<classes>
+<class name="com.makemytrip.testcases.TC_002SignUpPageTestCases"></class>
+</classes>
+</test>
+</suite>

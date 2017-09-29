@@ -1,208 +1,887 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="6" failed="0" ignored="0" total="8" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[Execute test suite name is :flightListingPagefilterValidation]]>
+      <![CDATA[Test case status checking]]>
+    </line>
+    <line>
+      <![CDATA[Execute test suite name is :SignUpPageTestCase]]>
     </line>
     <line>
       <![CDATA[startAppium----]]>
     </line>
     <line>
+      <![CDATA[Appium and Emulator device is Started..]]>
+    </line>
+    <line>
       <![CDATA[navigateURL--URL--]]>
     </line>
     <line>
-      <![CDATA[http://makemytrip.com]]>
+      <![CDATA[Navigating to this URL :http://makemytrip.com]]>
     </line>
     <line>
       <![CDATA[verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
     </line>
     <line>
-      <![CDATA[MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
+      <![CDATA[Verifing the title :MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
     </line>
     <line>
-      <![CDATA[click--homepage.flightlink--]]>
+      <![CDATA[click--homepage.loginIcon--]]>
     </line>
     <line>
-      <![CDATA[click--homepage.flight.fromcity--]]>
+      <![CDATA[Clicking the given link or element]]>
     </line>
     <line>
-      <![CDATA[chooseCityinList--homepage.flight.fromcitylist|homepage.flight.fromSearchbox--New Delhi]]>
+      <![CDATA[click--homepage.loginpage.signupBtn--]]>
     </line>
     <line>
-      <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
+      <![CDATA[Clicking the given link or element]]>
     </line>
     <line>
-      <![CDATA[click--homepage.flight.tocity--]]>
+      <![CDATA[input--homepage.loginpage.signup.firstname--FirstName]]>
     </line>
     <line>
-      <![CDATA[chooseCityinList--homepage.flight.fromcitylist|homepage.flight.fromSearchbox--NYC]]>
+      <![CDATA[Entering the data to given element (Text Box]]>
     </line>
     <line>
-      <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
+      <![CDATA[input--homepage.loginpage.signup.lastname--LastName]]>
     </line>
     <line>
-      <![CDATA[click--homepage.flight.checkIndatePicker--]]>
+      <![CDATA[Entering the data to given element (Text Box]]>
     </line>
     <line>
-      <![CDATA[datePicker----28/9/2017]]>
+      <![CDATA[input--homepage.loginpage.signup.mobile--Mobile]]>
     </line>
     <line>
-      <![CDATA[click--homepage.datepicker.returnCancelIcon--]]>
+      <![CDATA[Entering the data to given element (Text Box]]>
     </line>
     <line>
-      <![CDATA[click--homepage.datepicker.okBtn--]]>
+      <![CDATA[input--homepage.loginpage.signup.email--Email]]>
     </line>
     <line>
-      <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
+      <![CDATA[Entering the data to given element (Text Box]]>
     </line>
     <line>
-      <![CDATA[click--homepage.flight.adult--]]>
+      <![CDATA[input--homepage.loginpage.signup.pwd--Password]]>
     </line>
     <line>
-      <![CDATA[numberOfPassengerSelect----2|1|0]]>
+      <![CDATA[Entering the data to given element (Text Box]]>
     </line>
     <line>
-      <![CDATA[click--homepage.adultpage.okbtn--]]>
+      <![CDATA[click--homepage.loginpage.signup.signupBtn--]]>
     </line>
     <line>
-      <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
+      <![CDATA[Clicking the given link or element]]>
     </line>
     <line>
-      <![CDATA[click--homepage.flight.class--]]>
+      <![CDATA[verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result]]>
     </line>
     <line>
-      <![CDATA[selectClass--homepage.class.list--PREMIUM ECONOMY]]>
+      <![CDATA[Verifying the Validation Actual result Matching with Expected result ]]>
     </line>
     <line>
-      <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
-    </line>
-    <line>
-      <![CDATA[checkAlertnotificationmsg--notification.message.later--]]>
-    </line>
-    <line>
-      <![CDATA[click--homepage.flight.searchBtn--]]>
-    </line>
-    <line>
-      <![CDATA[checkAlertnotificationmsg--notification.message.later--]]>
-    </line>
-    <line>
-      <![CDATA[verifyTotal--flightlistingpage.flightnames|flightlistingpage.flightinsidecount|flightlistingpage.totalflight--]]>
+      <![CDATA[homepage.loginpage.signup.firstnameerr]]>
     </line>
     <line>
       <![CDATA[stopAppium----]]>
     </line>
+    <line>
+      <![CDATA[Stoping the Appium Server]]>
+    </line>
+    <line>
+      <![CDATA[Test case status checking]]>
+    </line>
+    <line>
+      <![CDATA[Test case status checking]]>
+    </line>
+    <line>
+      <![CDATA[Test case status checking]]>
+    </line>
+    <line>
+      <![CDATA[Test case status checking]]>
+    </line>
+    <line>
+      <![CDATA[Execute test suite name is :SignUpPageTestCase]]>
+    </line>
+    <line>
+      <![CDATA[startAppium----]]>
+    </line>
+    <line>
+      <![CDATA[Appium and Emulator device is Started..]]>
+    </line>
+    <line>
+      <![CDATA[navigateURL--URL--]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to this URL :http://makemytrip.com]]>
+    </line>
+    <line>
+      <![CDATA[verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
+    </line>
+    <line>
+      <![CDATA[Verifing the title :MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.loginIcon--]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the given link or element]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.loginpage.signupBtn--]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the given link or element]]>
+    </line>
+    <line>
+      <![CDATA[input--homepage.loginpage.signup.firstname--FirstName]]>
+    </line>
+    <line>
+      <![CDATA[Entering the data to given element (Text Box]]>
+    </line>
+    <line>
+      <![CDATA[input--homepage.loginpage.signup.lastname--LastName]]>
+    </line>
+    <line>
+      <![CDATA[Entering the data to given element (Text Box]]>
+    </line>
+    <line>
+      <![CDATA[input--homepage.loginpage.signup.mobile--Mobile]]>
+    </line>
+    <line>
+      <![CDATA[Entering the data to given element (Text Box]]>
+    </line>
+    <line>
+      <![CDATA[input--homepage.loginpage.signup.email--Email]]>
+    </line>
+    <line>
+      <![CDATA[Entering the data to given element (Text Box]]>
+    </line>
+    <line>
+      <![CDATA[input--homepage.loginpage.signup.pwd--Password]]>
+    </line>
+    <line>
+      <![CDATA[Entering the data to given element (Text Box]]>
+    </line>
+    <line>
+      <![CDATA[click--homepage.loginpage.signup.signupBtn--]]>
+    </line>
+    <line>
+      <![CDATA[Clicking the given link or element]]>
+    </line>
+    <line>
+      <![CDATA[verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the Validation Actual result Matching with Expected result ]]>
+    </line>
+    <line>
+      <![CDATA[homepage.loginpage.signup.firstnameerr]]>
+    </line>
+    <line>
+      <![CDATA[homepage.loginpage.signup.lastnameerr]]>
+    </line>
+    <line>
+      <![CDATA[homepage.loginpage.signup.mobileerr]]>
+    </line>
+    <line>
+      <![CDATA[stopAppium----]]>
+    </line>
+    <line>
+      <![CDATA[Stoping the Appium Server]]>
+    </line>
+    <line>
+      <![CDATA[Test case status checking]]>
+    </line>
+    <line>
+      <![CDATA[Test case status checking]]>
+    </line>
+    <line>
+      <![CDATA[Test case status checking]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="140898" started-at="2017-09-03T05:09:48Z" finished-at="2017-09-03T05:12:09Z">
+  <suite name="Default suite" duration-ms="155277" started-at="2017-09-29T10:52:57Z" finished-at="2017-09-29T10:55:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="140898" started-at="2017-09-03T05:09:48Z" finished-at="2017-09-03T05:12:09Z">
-      <class name="com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase">
-        <test-method status="PASS" signature="flightListingPagefilterValidation()[pri:0, instance:com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase@2d928643]" name="flightListingPagefilterValidation" duration-ms="140727" started-at="2017-09-03T10:39:48Z" finished-at="2017-09-03T10:42:09Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Execute test suite name is :flightListingPagefilterValidation]]>
-            </line>
-            <line>
-              <![CDATA[startAppium----]]>
-            </line>
-            <line>
-              <![CDATA[navigateURL--URL--]]>
-            </line>
-            <line>
-              <![CDATA[http://makemytrip.com]]>
-            </line>
-            <line>
-              <![CDATA[verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
-            </line>
-            <line>
-              <![CDATA[MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
-            </line>
-            <line>
-              <![CDATA[click--homepage.flightlink--]]>
-            </line>
-            <line>
-              <![CDATA[click--homepage.flight.fromcity--]]>
-            </line>
-            <line>
-              <![CDATA[chooseCityinList--homepage.flight.fromcitylist|homepage.flight.fromSearchbox--New Delhi]]>
-            </line>
-            <line>
-              <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
-            </line>
-            <line>
-              <![CDATA[click--homepage.flight.tocity--]]>
-            </line>
-            <line>
-              <![CDATA[chooseCityinList--homepage.flight.fromcitylist|homepage.flight.fromSearchbox--NYC]]>
-            </line>
-            <line>
-              <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
-            </line>
-            <line>
-              <![CDATA[click--homepage.flight.checkIndatePicker--]]>
-            </line>
-            <line>
-              <![CDATA[datePicker----28/9/2017]]>
-            </line>
-            <line>
-              <![CDATA[click--homepage.datepicker.returnCancelIcon--]]>
-            </line>
-            <line>
-              <![CDATA[click--homepage.datepicker.okBtn--]]>
-            </line>
-            <line>
-              <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
-            </line>
-            <line>
-              <![CDATA[click--homepage.flight.adult--]]>
-            </line>
-            <line>
-              <![CDATA[numberOfPassengerSelect----2|1|0]]>
-            </line>
-            <line>
-              <![CDATA[click--homepage.adultpage.okbtn--]]>
-            </line>
-            <line>
-              <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
-            </line>
-            <line>
-              <![CDATA[click--homepage.flight.class--]]>
-            </line>
-            <line>
-              <![CDATA[selectClass--homepage.class.list--PREMIUM ECONOMY]]>
-            </line>
-            <line>
-              <![CDATA[waitForTextPresent--homepage.flight.searchBtn--]]>
-            </line>
-            <line>
-              <![CDATA[checkAlertnotificationmsg--notification.message.later--]]>
-            </line>
-            <line>
-              <![CDATA[click--homepage.flight.searchBtn--]]>
-            </line>
-            <line>
-              <![CDATA[checkAlertnotificationmsg--notification.message.later--]]>
-            </line>
-            <line>
-              <![CDATA[verifyTotal--flightlistingpage.flightnames|flightlistingpage.flightinsidecount|flightlistingpage.totalflight--]]>
-            </line>
-            <line>
-              <![CDATA[stopAppium----]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- flightListingPagefilterValidation -->
-        <test-method status="PASS" signature="afterExecution(org.testng.ITestResult)[pri:0, instance:com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase@2d928643]" name="afterExecution" is-config="true" duration-ms="142" started-at="2017-09-03T10:42:09Z" finished-at="2017-09-03T10:42:09Z">
+    <test name="Default test" duration-ms="155277" started-at="2017-09-29T10:52:57Z" finished-at="2017-09-29T10:55:33Z">
+      <class name="com.makemytrip.testcases.TC_002SignUpPageTestCases">
+        <test-method status="PASS" signature="beforeClass(java.lang.reflect.Method)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="beforeClass" is-config="true" duration-ms="7" started-at="2017-09-29T16:22:58Z" finished-at="2017-09-29T16:22:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=flightListingPagefilterValidation status=SUCCESS method=TC_005FlightListingPagefilterValidationTestCase.flightListingPagefilterValidation()[pri:0, instance:com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase@2d928643] output=Execute test suite name is :flightListingPagefilterValidation]]]>
+                <![CDATA[public void com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="SignUpPageTestCase" duration-ms="11" started-at="2017-09-29T16:22:58Z" data-provider="getData" finished-at="2017-09-29T16:22:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=SKIP, Mobile=9898989898, FirstName=aaaaa, Password=123456, LastName=jjjjjjjj, Runmode=N, Expected_Result=Your email is already registered with us., Email=aj@yopmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[User is set this test case data runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: User is set this test case data runmode is No
+	at com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(TC_002SignUpPageTestCases.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpPageTestCase -->
+        <test-method status="PASS" signature="afterExecution(org.testng.ITestResult)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="afterExecution" is-config="true" duration-ms="113" started-at="2017-09-29T16:22:58Z" finished-at="2017-09-29T16:22:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUpPageTestCase status=SKIP method=TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case status checking]]>
+            </line>
+          </reporter-output>
         </test-method> <!-- afterExecution -->
-      </class> <!-- com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase -->
+        <test-method status="PASS" signature="beforeClass(java.lang.reflect.Method)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-09-29T16:22:58Z" finished-at="2017-09-29T16:22:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="SignUpPageTestCase" duration-ms="71478" started-at="2017-09-29T16:22:58Z" data-provider="getData" finished-at="2017-09-29T16:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=PASS, Mobile=9898989898, FirstName=, Password=123456, LastName=YAN, Runmode=Y, Expected_Result=Please Enter First Name., Email=ayan@yopmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Execute test suite name is :SignUpPageTestCase]]>
+            </line>
+            <line>
+              <![CDATA[startAppium----]]>
+            </line>
+            <line>
+              <![CDATA[Appium and Emulator device is Started..]]>
+            </line>
+            <line>
+              <![CDATA[navigateURL--URL--]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to this URL :http://makemytrip.com]]>
+            </line>
+            <line>
+              <![CDATA[verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
+            </line>
+            <line>
+              <![CDATA[Verifing the title :MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.loginIcon--]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the given link or element]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.loginpage.signupBtn--]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the given link or element]]>
+            </line>
+            <line>
+              <![CDATA[input--homepage.loginpage.signup.firstname--FirstName]]>
+            </line>
+            <line>
+              <![CDATA[Entering the data to given element (Text Box]]>
+            </line>
+            <line>
+              <![CDATA[input--homepage.loginpage.signup.lastname--LastName]]>
+            </line>
+            <line>
+              <![CDATA[Entering the data to given element (Text Box]]>
+            </line>
+            <line>
+              <![CDATA[input--homepage.loginpage.signup.mobile--Mobile]]>
+            </line>
+            <line>
+              <![CDATA[Entering the data to given element (Text Box]]>
+            </line>
+            <line>
+              <![CDATA[input--homepage.loginpage.signup.email--Email]]>
+            </line>
+            <line>
+              <![CDATA[Entering the data to given element (Text Box]]>
+            </line>
+            <line>
+              <![CDATA[input--homepage.loginpage.signup.pwd--Password]]>
+            </line>
+            <line>
+              <![CDATA[Entering the data to given element (Text Box]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.loginpage.signup.signupBtn--]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the given link or element]]>
+            </line>
+            <line>
+              <![CDATA[verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the Validation Actual result Matching with Expected result ]]>
+            </line>
+            <line>
+              <![CDATA[homepage.loginpage.signup.firstnameerr]]>
+            </line>
+            <line>
+              <![CDATA[stopAppium----]]>
+            </line>
+            <line>
+              <![CDATA[Stoping the Appium Server]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignUpPageTestCase -->
+        <test-method status="PASS" signature="afterExecution(org.testng.ITestResult)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="afterExecution" is-config="true" duration-ms="116" started-at="2017-09-29T16:24:10Z" finished-at="2017-09-29T16:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUpPageTestCase status=SUCCESS method=TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74] output=Execute test suite name is :SignUpPageTestCase]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case status checking]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterExecution -->
+        <test-method status="PASS" signature="beforeClass(java.lang.reflect.Method)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-09-29T16:24:10Z" finished-at="2017-09-29T16:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="SignUpPageTestCase" duration-ms="7" started-at="2017-09-29T16:24:10Z" data-provider="getData" finished-at="2017-09-29T16:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=SKIP, Mobile=9898989898, FirstName=YAN, Password=123456, LastName=, Runmode=N, Expected_Result=Please Enter Last Name., Email=yan@yopmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[User is set this test case data runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: User is set this test case data runmode is No
+	at com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(TC_002SignUpPageTestCases.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpPageTestCase -->
+        <test-method status="PASS" signature="afterExecution(org.testng.ITestResult)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="afterExecution" is-config="true" duration-ms="138" started-at="2017-09-29T16:24:10Z" finished-at="2017-09-29T16:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUpPageTestCase status=SKIP method=TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case status checking]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterExecution -->
+        <test-method status="PASS" signature="beforeClass(java.lang.reflect.Method)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-09-29T16:24:10Z" finished-at="2017-09-29T16:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="SignUpPageTestCase" duration-ms="7" started-at="2017-09-29T16:24:10Z" data-provider="getData" finished-at="2017-09-29T16:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=SKIP, Mobile=9898989898, FirstName=ILLA, Password=123456, LastName=N, Runmode=N, Expected_Result=Please Enter Email., Email=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[User is set this test case data runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: User is set this test case data runmode is No
+	at com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(TC_002SignUpPageTestCases.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpPageTestCase -->
+        <test-method status="PASS" signature="afterExecution(org.testng.ITestResult)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="afterExecution" is-config="true" duration-ms="152" started-at="2017-09-29T16:24:10Z" finished-at="2017-09-29T16:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUpPageTestCase status=SKIP method=TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case status checking]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterExecution -->
+        <test-method status="PASS" signature="beforeClass(java.lang.reflect.Method)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-09-29T16:24:10Z" finished-at="2017-09-29T16:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="SignUpPageTestCase" duration-ms="6" started-at="2017-09-29T16:24:10Z" data-provider="getData" finished-at="2017-09-29T16:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=SKIP, Mobile=9898989898, FirstName=ILLA, Password=, LastName=N, Runmode=N, Expected_Result=Please Enter password., Email=ilan@yopmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[User is set this test case data runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: User is set this test case data runmode is No
+	at com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(TC_002SignUpPageTestCases.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpPageTestCase -->
+        <test-method status="PASS" signature="afterExecution(org.testng.ITestResult)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="afterExecution" is-config="true" duration-ms="108" started-at="2017-09-29T16:24:10Z" finished-at="2017-09-29T16:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUpPageTestCase status=SKIP method=TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case status checking]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterExecution -->
+        <test-method status="PASS" signature="beforeClass(java.lang.reflect.Method)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-09-29T16:24:10Z" finished-at="2017-09-29T16:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="SignUpPageTestCase" duration-ms="81626" started-at="2017-09-29T16:24:10Z" data-provider="getData" finished-at="2017-09-29T16:25:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=FAIL, Mobile=, FirstName=ILLA, Password=123456, LastName=N, Runmode=Y, Expected_Result=Please Enter Mobile Number., Email=ilan@yopmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Execute test suite name is :SignUpPageTestCase]]>
+            </line>
+            <line>
+              <![CDATA[startAppium----]]>
+            </line>
+            <line>
+              <![CDATA[Appium and Emulator device is Started..]]>
+            </line>
+            <line>
+              <![CDATA[navigateURL--URL--]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to this URL :http://makemytrip.com]]>
+            </line>
+            <line>
+              <![CDATA[verifyTitle----MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
+            </line>
+            <line>
+              <![CDATA[Verifing the title :MakeMyTrip, India's No 1 Travel Site | Book Hotels, Flights, Holiday]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.loginIcon--]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the given link or element]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.loginpage.signupBtn--]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the given link or element]]>
+            </line>
+            <line>
+              <![CDATA[input--homepage.loginpage.signup.firstname--FirstName]]>
+            </line>
+            <line>
+              <![CDATA[Entering the data to given element (Text Box]]>
+            </line>
+            <line>
+              <![CDATA[input--homepage.loginpage.signup.lastname--LastName]]>
+            </line>
+            <line>
+              <![CDATA[Entering the data to given element (Text Box]]>
+            </line>
+            <line>
+              <![CDATA[input--homepage.loginpage.signup.mobile--Mobile]]>
+            </line>
+            <line>
+              <![CDATA[Entering the data to given element (Text Box]]>
+            </line>
+            <line>
+              <![CDATA[input--homepage.loginpage.signup.email--Email]]>
+            </line>
+            <line>
+              <![CDATA[Entering the data to given element (Text Box]]>
+            </line>
+            <line>
+              <![CDATA[input--homepage.loginpage.signup.pwd--Password]]>
+            </line>
+            <line>
+              <![CDATA[Entering the data to given element (Text Box]]>
+            </line>
+            <line>
+              <![CDATA[click--homepage.loginpage.signup.signupBtn--]]>
+            </line>
+            <line>
+              <![CDATA[Clicking the given link or element]]>
+            </line>
+            <line>
+              <![CDATA[verifyValidation--homepage.loginpage.signup.firstnameerr|homepage.loginpage.signup.lastnameerr|homepage.loginpage.signup.mobileerr|homepage.loginpage.signup.emailerr|homepage.loginpage.signup.pwserr|homepage.loginpage.signup.alreadyregerr--Expected_Result]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the Validation Actual result Matching with Expected result ]]>
+            </line>
+            <line>
+              <![CDATA[homepage.loginpage.signup.firstnameerr]]>
+            </line>
+            <line>
+              <![CDATA[homepage.loginpage.signup.lastnameerr]]>
+            </line>
+            <line>
+              <![CDATA[homepage.loginpage.signup.mobileerr]]>
+            </line>
+            <line>
+              <![CDATA[stopAppium----]]>
+            </line>
+            <line>
+              <![CDATA[Stoping the Appium Server]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignUpPageTestCase -->
+        <test-method status="PASS" signature="afterExecution(org.testng.ITestResult)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="afterExecution" is-config="true" duration-ms="57" started-at="2017-09-29T16:25:32Z" finished-at="2017-09-29T16:25:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUpPageTestCase status=SUCCESS method=TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74] output=Execute test suite name is :SignUpPageTestCase]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case status checking]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterExecution -->
+        <test-method status="SKIP" signature="SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="SignUpPageTestCase" duration-ms="2" started-at="2017-09-29T16:25:32Z" data-provider="getData" finished-at="2017-09-29T16:25:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=SKIP, Mobile=78898989, FirstName=ILLA, Password=123456, LastName=N, Runmode=N, Expected_Result=Please Enter valid Mobile Number., Email=ilan@yopmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[User is set this test case data runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: User is set this test case data runmode is No
+	at com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(TC_002SignUpPageTestCases.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpPageTestCase -->
+        <test-method status="PASS" signature="beforeClass(java.lang.reflect.Method)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-09-29T16:25:32Z" finished-at="2017-09-29T16:25:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterExecution(org.testng.ITestResult)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="afterExecution" is-config="true" duration-ms="60" started-at="2017-09-29T16:25:32Z" finished-at="2017-09-29T16:25:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUpPageTestCase status=SKIP method=TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case status checking]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterExecution -->
+        <test-method status="PASS" signature="beforeClass(java.lang.reflect.Method)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-09-29T16:25:32Z" finished-at="2017-09-29T16:25:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="SignUpPageTestCase" duration-ms="3" started-at="2017-09-29T16:25:32Z" data-provider="getData" finished-at="2017-09-29T16:25:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=SKIP, Mobile=788989898, FirstName=ILLA, Password=1234, LastName=N, Runmode=N, Expected_Result=Password cannot be less than 6 characters., Email=ilan@yopmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[User is set this test case data runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: User is set this test case data runmode is No
+	at com.makemytrip.testcases.TC_002SignUpPageTestCases.SignUpPageTestCase(TC_002SignUpPageTestCases.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpPageTestCase -->
+        <test-method status="PASS" signature="afterExecution(org.testng.ITestResult)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="afterExecution" is-config="true" duration-ms="70" started-at="2017-09-29T16:25:32Z" finished-at="2017-09-29T16:25:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUpPageTestCase status=SKIP method=TC_002SignUpPageTestCases.SignUpPageTestCase(java.util.Hashtable)[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case status checking]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterExecution -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.makemytrip.testcases.TC_002SignUpPageTestCases@57175e74]" name="afterClass" is-config="true" duration-ms="652" started-at="2017-09-29T16:25:32Z" finished-at="2017-09-29T16:25:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.makemytrip.testcases.TC_002SignUpPageTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

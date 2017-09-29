@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Login Page Test(failed)" parallel="classes">
+    <parameter name="address" value="127.0.0.1"/>
+    <parameter name="appium_URL" value="127.0.0.1:4723/wd/hub"/>
+    <parameter name="device" value="Nexus7"/>
+    <classes>
+      <class name="com.makemytrip.testcases.TC_001LoginTestCases">
+        <methods>
+          <include name="LoginPageTestCases" invocation-numbers="1 2 3 4 5 6"/>
+          <include name="beforeClass"/>
+          <include name="startAppiumServer"/>
+          <include name="afterExecution"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.makemytrip.testcases.TC_001LoginTestCases -->
+      <class name="com.makemytrip.testcases.TC_002SignUpPageTestCases">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="startAppiumServer"/>
+          <include name="afterExecution"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.makemytrip.testcases.TC_002SignUpPageTestCases -->
+    </classes>
+  </test> <!-- Login Page Test(failed) -->
+  <test name="Sign Up Page Test(failed)" parallel="classes">
+    <parameter name="address" value="127.0.0.2"/>
+    <parameter name="appium_URL" value="127.0.0.2:4723/wd/hub"/>
+    <parameter name="device" value="Nexus6"/>
+    <classes>
+      <class name="com.makemytrip.testcases.TC_001LoginTestCases">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="startAppiumServer"/>
+          <include name="afterExecution"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.makemytrip.testcases.TC_001LoginTestCases -->
+      <class name="com.makemytrip.testcases.TC_002SignUpPageTestCases">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="startAppiumServer"/>
+          <include name="afterExecution"/>
+          <include name="afterClass"/>
+          <include name="SignUpPageTestCase" invocation-numbers="0 2 3 4 5 6 7"/>
+        </methods>
+      </class> <!-- com.makemytrip.testcases.TC_002SignUpPageTestCases -->
+    </classes>
+  </test> <!-- Sign Up Page Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

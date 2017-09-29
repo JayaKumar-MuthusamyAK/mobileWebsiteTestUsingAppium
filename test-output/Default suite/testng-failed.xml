@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase">
+      <class name="com.makemytrip.testcases.TC_002SignUpPageTestCases">
         <methods>
-          <include name="flightListingPagefilterValidation"/>
+          <include name="beforeClass"/>
           <include name="afterExecution"/>
+          <include name="afterClass"/>
+          <include name="SignUpPageTestCase" invocation-numbers="0 2 3 4 6 7"/>
         </methods>
-      </class> <!-- com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase -->
+      </class> <!-- com.makemytrip.testcases.TC_002SignUpPageTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

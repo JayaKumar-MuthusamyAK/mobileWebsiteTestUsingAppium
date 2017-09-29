@@ -11,18 +11,20 @@ import org.testng.Assert;
 
 import com.makemytrip.testbase.TestBase;
 
+import io.appium.java_client.MobileBy;
+
 public class ApplicationDependKeywords extends TestBase{
 
 	
 public String verifyValidation(String objectkeys, String data) throws Exception {
 
-		
+	log("Verifying the Validation Actual result Matching with Expected result ");
 		if (objectkeys.contains("|")) {
 			int countnum = StringUtils.countMatches(objectkeys, "|");
 			for (int i = 0; i <= countnum; i++) {
 				if (getWebElements(objectkeys.split("\\|")[i]).size() != 0) {
 					System.out.println(objectkeys.split("\\|")[i]);
-					log(objectkeys.split("\\|")[i]);
+					//log(objectkeys.split("\\|")[i]);
 					// getWebElement(name.split("\\|")[i]);
 					Thread.sleep(3000);
 					//System.out.println(getWebElement(objectkeys.split("\\|")[i]).getText());
@@ -36,7 +38,7 @@ public String verifyValidation(String objectkeys, String data) throws Exception 
 						
 					}
 					else if(getWebElement(objectkeys.split("\\|")[i]).getText().equals(data)){
-						System.out.println("Not Logged");
+						System.out.println("Invalid Credentials Not Logged");
 						//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum(testCasesName, Keywords.xls,"Expected_Result"), getWebElement(name.split("\\|")[i]).getText());
 						//Keywords.xls.setCellDataInparticularCell(testCasesName, "Test Data", "Expected_Result", getWebElement(name.split("\\|")[i]).getText());
 						Assert.assertEquals(getWebElement(objectkeys.split("\\|")[i]).getText(), data);
@@ -54,13 +56,13 @@ public String verifyValidation(String objectkeys, String data) throws Exception 
 		
 		
 		int citiestot = getWebElements(objectkeys.split("\\|")[0]).size();
-		
+		log("Selecting the City in the given element");
 		/*for(int i=0; i<citiestot; i++){
 			System.out.println(getWebElements(objectkeys.split("\\|")[0]).get(i).getText());
 			log(getWebElements(objectkeys.split("\\|")[0]).get(i).getText());
 		}*/
 		getWebElement(objectkeys.split("\\|")[1]).sendKeys(datakeys);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		getWebElement(objectkeys.split("\\|")[0]).click();
 		
 		return "Pass";

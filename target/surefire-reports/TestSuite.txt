@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 1.59 sec <<< FAILURE!
-startServer1(com.makemytrip.testcasespractice.SampleTest)  Time elapsed: 1.22 sec  <<< FAILURE!
-io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: The local appium server has not been started. The given Node.js executable: C:\Program Files (x86)\Appium\node.exe Arguments: [C:\Program Files (x86)\Appium\node_modules\appium\bin\appium.js, --port, 4723, --address, 0.0.0.0] 
-
-	at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:155)
-	at com.makemytrip.testcasespractice.SampleTest.startServer1(SampleTest.java:34)
-Caused by: java.lang.IllegalAccessError: tried to access method com.google.common.util.concurrent.SimpleTimeLimiter.<init>(Ljava/util/concurrent/ExecutorService;)V from class org.openqa.selenium.net.UrlChecker
-	at org.openqa.selenium.net.UrlChecker.<init>(UrlChecker.java:67)
-	at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:115)
-	at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:142)
-	... 34 more
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 138.264 sec - in TestSuite

@@ -6,10 +6,11 @@ import org.testng.SkipException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.makemytrip.testbase.TestBase;
 import com.makemytrip.testscripts.Keywords;
 import com.makemytrip.testutils.TestUtils;
 
-public class TC_002SignUpPageTestCases {
+public class TC_002SignUpPageTestCases extends TestBase{
 	
 	@Test(dataProvider="getData")
 	public void SignUpPageTestCase(Hashtable<String, String> data) throws Exception{
@@ -18,8 +19,7 @@ public class TC_002SignUpPageTestCases {
 			throw new SkipException("User is set this test cases runmode is No");
 		
 		if(!data.get("Runmode").equals("Y")){
-			//Keywords.xls.setCellData("Test Data", "Expected_Result", TestUtils.getNum("loginTestwithDifferentscenarios", Keywords.xls,"Expected_Result"), "-");
-			Keywords.xls.setCellDataInparticularCell("SignUpPageTestCase", "Test Data", "Expected_Result", "-");
+			//Keywords.xls.setCellDataInparticularCell("SignUpPageTestCase", "Test Data", "Expected_Result", "-");
 			throw new SkipException("User is set this test case data runmode is No");
 		}
 			

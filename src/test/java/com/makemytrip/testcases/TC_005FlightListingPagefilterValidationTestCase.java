@@ -1,6 +1,5 @@
 package com.makemytrip.testcases;
 
-import org.apache.log4j.Logger;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
@@ -10,7 +9,6 @@ import com.makemytrip.testutils.TestUtils;
 
 public class TC_005FlightListingPagefilterValidationTestCase extends TestBase{
 
-	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	@Test
 	public void flightListingPagefilterValidation() throws Exception{
 		

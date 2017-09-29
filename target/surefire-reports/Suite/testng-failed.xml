@@ -1,115 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.makemytrip.customlistner.Listners"/>
-  </listeners>
-  <test name="Login Page Test Cases(failed)">
-    <classes>
-      <class name="com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase">
-        <methods>
-          <include name="afterExecution"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase -->
-      <class name="com.makemytrip.testcases.TC_004NewUserSignupTestCase">
-        <methods>
-          <include name="afterExecution"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_004NewUserSignupTestCase -->
-      <class name="com.makemytrip.testcases.TC_001LoginTestCases">
-        <methods>
-          <include name="LoginPageTestCases" invocation-numbers="0 1 2 3 4 5 6"/>
-          <include name="afterExecution"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_001LoginTestCases -->
-    </classes>
-  </test> <!-- Login Page Test Cases(failed) -->
-  <test name="Sign Up page Test Cases(failed)">
-    <classes>
-      <class name="com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase">
-        <methods>
-          <include name="afterExecution"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase -->
-      <class name="com.makemytrip.testcases.TC_004NewUserSignupTestCase">
-        <methods>
-          <include name="afterExecution"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_004NewUserSignupTestCase -->
-      <class name="com.makemytrip.testcases.TC_001LoginTestCases">
-        <methods>
-          <include name="afterExecution"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_001LoginTestCases -->
-      <class name="com.makemytrip.testcases.TC_002SignUpPageTestCases">
-        <methods>
-          <include name="SignUpPageTestCase" invocation-numbers="0 1 2 3 4 5 6 7"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_002SignUpPageTestCases -->
-    </classes>
-  </test> <!-- Sign Up page Test Cases(failed) -->
-  <test name="Flight Reservation Page Test Cases(failed)">
-    <classes>
-      <class name="com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase">
-        <methods>
-          <include name="afterExecution"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase -->
-      <class name="com.makemytrip.testcases.TC_003FlightReservation">
-        <methods>
-          <include name="flightReseverationpage"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_003FlightReservation -->
-      <class name="com.makemytrip.testcases.TC_004NewUserSignupTestCase">
-        <methods>
-          <include name="afterExecution"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_004NewUserSignupTestCase -->
-      <class name="com.makemytrip.testcases.TC_001LoginTestCases">
-        <methods>
-          <include name="afterExecution"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_001LoginTestCases -->
-    </classes>
-  </test> <!-- Flight Reservation Page Test Cases(failed) -->
-  <test name="New User Sign Up Test Cases(failed)">
-    <classes>
-      <class name="com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase">
-        <methods>
-          <include name="afterExecution"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase -->
-      <class name="com.makemytrip.testcases.TC_004NewUserSignupTestCase">
-        <methods>
-          <include name="newUserSignupTestCase"/>
-          <include name="afterExecution"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_004NewUserSignupTestCase -->
-      <class name="com.makemytrip.testcases.TC_001LoginTestCases">
-        <methods>
-          <include name="afterExecution"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_001LoginTestCases -->
-    </classes>
-  </test> <!-- New User Sign Up Test Cases(failed) -->
   <test name="Flight Listing page Filter Validation(failed)">
     <classes>
       <class name="com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase">
         <methods>
+          <include name="beforeClass"/>
           <include name="flightListingPagefilterValidation"/>
           <include name="afterExecution"/>
         </methods>
       </class> <!-- com.makemytrip.testcases.TC_005FlightListingPagefilterValidationTestCase -->
-      <class name="com.makemytrip.testcases.TC_004NewUserSignupTestCase">
-        <methods>
-          <include name="afterExecution"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_004NewUserSignupTestCase -->
-      <class name="com.makemytrip.testcases.TC_001LoginTestCases">
-        <methods>
-          <include name="afterExecution"/>
-        </methods>
-      </class> <!-- com.makemytrip.testcases.TC_001LoginTestCases -->
     </classes>
   </test> <!-- Flight Listing page Filter Validation(failed) -->
 </suite> <!-- Failed suite [Suite] -->
